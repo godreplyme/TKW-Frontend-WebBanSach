@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        }
+
+        .slide {
+        width: 100%;
+        height: auto;
+        display: none;
+        }
+
+        .prev,
+        .next {
+        position: absolute;
+        top: 50%;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding: 16px;
+        cursor: pointer;
+        z-index: 1;
+        }
+
+        .prev {
+        left: 10px;
+        }
+
+        .next {
+        right: 10px;
+        }
+    </style>
+    <script>
+        var slideIndex = 0;
+
+function showSlide(n) {
+  var slides = document.getElementsByClassName('slide');
+  
+  // Ẩn tất cả các ảnh
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = 'none';
+  }
+  
+  // Hiển thị ảnh tại chỉ số n
+  slides[n].style.display = 'block';
+}
+
+function changeSlide(n) {
+  slideIndex += n;
+  var slides = document.getElementsByClassName('slide');
+  
+  // Quay lại slide đầu nếu quá chỉ số cuối cùng
+  if (slideIndex >= slides.length) {
+    slideIndex = 0;
+  }
+  
+  // Đến slide cuối nếu quay ngược lại slide đầu
+  if (slideIndex < 0) {
+    slideIndex = slides.length - 1;
+  }
+  
+  showSlide(slideIndex);
+}
+
+// Tự động chuyển slide sau mỗi 5 giây
+setInterval(function() {
+  changeSlide(1);
+}, 5000);
+
+// Hiển thị slide đầu tiên khi trang được tải
+showSlide(slideIndex);
+    </script>
+</head>
+<body>
+    <div class="banner">
+        <img class="slide" src="images/smallbanner1.png" alt="Image 1">
+        <img class="slide" src="images/smallbanner2.jpg" alt="Image 2">
+        <img class="slide" src="images/smallbanner3.jpg" alt="Image 3">
+        
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+      
+</body>
+</html>

@@ -1,18 +1,52 @@
 [
     {
-        "image":"images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg",
-        "name":"Sách hay nhất của nguyễn hồ vũ",
-        "writer":"Nguyễn Hồ Vũ",
-        "price":"100.000",
-        "rawprice":"200.000",
-        "offer":"50"
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-1.jpg",
+        "name":"Từ 1 Đến 20, Số Tự Nhiên Thật Thú Vị",
+        "writer":"Park Young Hoon",
+        "price":"109.000",
+        "rawprice":"93.000",
+        "offer":"15"
     },
     {
-        "image":"images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg",
-        "name":"Sách hay nhất của nguyễn hồ vũ",
-        "writer":"Nguyễn Hồ Vũ",
-        "price":"100.000",
-        "rawprice":"200.000",
-        "offer":"50"
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-2.jpg",
+        "name":"Số Nào Lớn Hơn, Số Nào Nhỏ Hơn",
+        "writer":"Park Young Hoon",
+        "price":"109.000",
+        "rawprice":"93.000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-3.jpg",
+        "name":"Phép Cộng Trừ Chẳng Khó",
+        "writer":"Park Young Hoon",
+        "price":"109.000",
+        "rawprice":"93.000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-4.jpg",
+        "name":"Cùng Em Luyện Cộng Trừ",
+        "writer":"Park Young Hoon",
+        "price":"109.000",
+        "rawprice":"93.000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-5.jpg",
+        "name":"Cộng Trừ Khắp Quanh Ta",
+        "writer":"Park Young Hoon",
+        "price":"109.000",
+        "rawprice":"93.000",
+        "offer":"15"
     }
 ]

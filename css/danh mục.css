@@ -145,9 +145,11 @@ a{
 }
 .product-content{
     display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .product{
-    width:25%;
+    width:21%;
     padding:10px;
     text-align: center;
 }

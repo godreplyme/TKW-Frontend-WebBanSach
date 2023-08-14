@@ -65,14 +65,14 @@ function leftProduct(event){
     }
 }   
 var scrolltop=document.getElementById('myBtn')
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        scrolltop.style.display = "block";
-    } else {
-        scrolltop.style.display = "none";
-    }
-}
+// window.onscroll = function() {scrollFunction()};
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         scrolltop.style.display = "block";
+//     } else {
+//         scrolltop.style.display = "none";
+//     }
+// }
 function topFunction(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -87,3 +87,11 @@ $(document).ready(function(){
     });
     
 })
+
+window.onload=function(){
+    let category=document.querySelectorAll(".category>li")
+    for(let cate of category)
+        cate.onmousemove=function(){
+            let d = document.getElementsByClassName("sub-category")
+        }
+}   

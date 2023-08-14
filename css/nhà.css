@@ -110,14 +110,12 @@ a{
     width:20%;
     border-radius:10px;
     position: relative;
-    overflow: hidden;
 }
 .category{
     position: relative;
     width: 100%;
 }
 .category>li{
-    position:relative;
     display:flex;
 }
 .category a{
@@ -135,6 +133,7 @@ a{
 
 .advertisement-banner{
     width:80%;
+    height:610px;
 }
 /* slider */
 .slider-content{
@@ -604,8 +603,6 @@ footer{
     animation: offer 2s infinite;
 }
 
-
-
 /* scroll top */
 #myBtn{ 
     display:none;
@@ -622,6 +619,58 @@ footer{
 #myBtn i{
     color: #f8f8f8;
     font-size: 30px;
+}
+
+
+/* sub category */
+.sub-category{
+    position:absolute;
+    top:0;
+    left:100%;
+    width:1080px;
+    height:600px;
+    background-size: cover;
+    display:flex;
+    background-color:white;
+    display:none;
+}
+.sub-category:nth-child(4){
+    background-image: url(sach\ giao\ khoa\ giao\ trinh.png);
+}
+.category>li>.sub-category:nth-child(5){
+    background-image: url(sach\ van\ hoc\ trog\ nuoc.png);
+}
+.sub-category:nth-child(6){
+    background-image: url(sach\ van\ hoc\ nuoc\ ngoai.png);
+}
+.sub-category:nth-child(7){
+    background-image: url(sach\ thieu\ nhi.png);
+}
+.sub-category:nth-child(8){
+    background-image: url(sach\ tin\ hoc\ ngoai\ ngu.png);
+}
+.sub-category:nth-child(9){
+    background-image: url(sach\ chuyen\ nganh.png);
+}
+.sub-category:nth-child(12){
+    background-image: url(sachthuongthuc.png);
+}
+.sub-category>li{
+    padding-top:10px;
+    width:20%;
+}
+.sub-category>li:first-child{
+    padding-left:10px;
+}
+.sub-category h1{
+    font-size: 20px;
+    padding:5px 0;
+}
+.category-item>li>a{
+    padding:5px 0;
+}
+.category-item>li>a:hover{
+    color: blue;
 }
 
 @keyframes offer {

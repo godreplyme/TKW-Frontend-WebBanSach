@@ -48,5 +48,65 @@
         "price":"109.000",
         "rawprice":"93.000",
         "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-6.jpg",
+        "name":"Em Cộng Trừ Thành Thạo",
+        "writer":"Park Young Hoon",
+        "price":"109.000",
+        "rawprice":"93.000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-7.jpg",
+        "name":"To Understand English - Lớp 5",
+        "writer":"Park Young Hoon",
+        "price":"100.000",
+        "rawprice":"88.000",
+        "offer":"12"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-8.jpg",
+        "name":"To Understand English - Lớp 5",
+        "writer":"Park Young Hoon",
+        "price":"100.000",
+        "rawprice":"88.000",
+        "offer":"12"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-9.jpg",
+        "name":"To Understand English - Lớp 5",
+        "writer":"Park Young Hoon",
+        "price":"100.000",
+        "rawprice":"88.000",
+        "offer":"12"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-10.jpg",
+        "name":"To Understand English - Lớp 5",
+        "writer":"Park Young Hoon",
+        "price":"100.000",
+        "rawprice":"88.000",
+        "offer":"12"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-11.jpg",
+        "name":"To Understand English - Lớp 5",
+        "writer":"Park Young Hoon",
+        "price":"100.000",
+        "rawprice":"",
+        "offer":""
     }
 ]

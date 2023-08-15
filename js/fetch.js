@@ -4,7 +4,7 @@ function sachGiaoKhoa(){
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
             for(let d of data)
             {
-                if(d.type1=="sachgk"){
+                if(d.type1=="sachgk"&&d.rawprice!=""){
                 productContainer.insertAdjacentHTML("beforeend",`
                 <div class="product">
                     <img src="${d.image}">
@@ -17,6 +17,15 @@ function sachGiaoKhoa(){
                     </ul>
                 </div>
                 `)}
+                if(d.type1=="sachgk"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="writer"><a>${d.writer}</a></div>
+                        <div class="price">${d.price}&#8363;</div>
+                    </div>
+                    `)}
             }
             })
         }

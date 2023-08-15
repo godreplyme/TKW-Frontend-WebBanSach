@@ -368,30 +368,26 @@ footer{
 /* sản phẩm */
 .main-products-container{
     position:relative;
-        overflow:hidden;
+    overflow:hidden;
 }
 .products-container{
     position:relative;
     height:420px;
     transition:all 0.3s ease;
-}
-.product-container{
-    position:absolute;
     display:flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
 }
 .product-name{
     font-size: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
     max-height: 2.4em;
-    margin: 5px 0;
+    margin: 5px 5px;
 }
 .product{
+    position: absolute;
     text-align: center;
-    width:19%;
-    padding:20px 5px;
+    width:20%;
+    padding:20px 0;
     border-radius: 10px;
 }
 .writer a{
@@ -450,11 +446,47 @@ footer{
     align-items: center;
     transition:all 0.3s ease;
 }
-.products-container .product-container:nth-child(2){
+.products-container .product:nth-child(2){
     transform:translateX(100%)
 }
-.products-container .product-container:nth-child(3){
+.products-container .product:nth-child(3){
     transform:translateX(200%)
+} 
+.products-container .product:nth-child(4){
+    transform:translateX(300%)
+} 
+.products-container .product:nth-child(5){
+    transform:translateX(400%)
+} 
+.products-container .product:nth-child(6){
+    transform:translateX(500%)
+} 
+.products-container .product:nth-child(7){
+    transform:translateX(600%)
+} 
+.products-container .product:nth-child(8){
+    transform:translateX(700%)
+} 
+.products-container .product:nth-child(9){  
+    transform:translateX(800%)
+}
+.products-container .product:nth-child(10){
+    transform:translateX(900%)
+} 
+.products-container .product:nth-child(11){
+    transform:translateX(1000%)
+} 
+.products-container .product:nth-child(12){
+    transform:translateX(1100%)
+} 
+.products-container .product:nth-child(13){
+    transform:translateX(1200%)
+} 
+.products-container .product:nth-child(14){
+    transform:translateX(1300%)
+} 
+.products-container .product:nth-child(15){
+    transform:translateX(1400%)
 } 
 .xemthem-btn{
     margin-top:10px;
@@ -604,21 +636,21 @@ footer{
 }
 
 /* scroll top */
-#myBtn{ 
+#scrollToTopButton {
     display:none;
     position: fixed;
-    width:50px;
-    height:50px;
-    right:50px;
-    bottom:50px;
-    align-items: center;
-    justify-content: center;
-    background-color: #F24137;
-    border-radius: 25px;
-}
-#myBtn i{
-    color: #f8f8f8;
-    font-size: 30px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;  
+    background-color: #555;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition:all 0.5s ease;
 }
 
 

@@ -32,6 +32,7 @@ function leftSlider(){
         countSlider=3;
     }
 } 
+// hàm remove
 function removeActive(){
     let unActive = document.querySelector(".active")
     unActive.classList.remove('active')
@@ -63,20 +64,13 @@ function leftProduct(event){
     {
         countSliderProduct=10;
     }
-}   
-var scrolltop=document.getElementById('myBtn')
-// window.onscroll = function() {scrollFunction()};
-// function scrollFunction() {
-//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//         scrolltop.style.display = "block";
-//     } else {
-//         scrolltop.style.display = "none";
-//     }
-// }
+}
 function topFunction(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// jQuery
 $(document).ready(function(){
     $(".modal-overlay").click(function(){
         $(".main-modal").hide();
@@ -88,10 +82,40 @@ $(document).ready(function(){
     
 })
 
-window.onload=function(){
-    let category=document.querySelectorAll(".category>li")
-    for(let cate of category)
-        cate.onmousemove=function(){
-            let d = document.getElementsByClassName("sub-category")
-        }
-}   
+// window.onload=function(){
+//     let category=document.querySelectorAll(".category>li")
+//     for(let cate of category)
+//         cate.onmousemove=function(){
+//             let d = document.getElementsByClassName("sub-category")
+//         }
+// }   
+
+
+//scrollbutton
+const scrollToTopButton = document.getElementById("scrollToTopButton");
+
+window.addEventListener("scroll", function(){
+  if (window.scrollY > 300) {
+    scrollToTopButton.style.display = "block";
+  } else {
+    scrollToTopButton.style.display = "none";
+  }
+});
+document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      scrollToTopButton.style.opacity = 1;
+      scrollToTopButton.style.transform = "scale(1)";
+    }, 500);
+  });
+scrollToTopButton.addEventListener("click", () => {
+  const scrollDuration = 1000;
+  const scrollStep = -window.scrollY / (scrollDuration / 15);
+
+  const scrollInterval = setInterval(() => {
+    if (window.scrollY !== 0) {
+      window.scrollBy(0, scrollStep);
+    } else {
+      clearInterval(scrollInterval);
+    }
+  }, 15);
+});

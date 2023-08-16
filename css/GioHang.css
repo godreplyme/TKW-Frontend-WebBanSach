@@ -1,0 +1,49 @@
+.Flex {
+    display: flex;    
+    align-items: center;    
+}
+.title {
+    padding: 1rem 2rem;
+    background: linear-gradient(mistyrose, aliceblue);
+    /* background: linear-gradient(#fdcbf1, #e6dee9); */
+    margin: 2rem 0;
+}
+section {
+    background: linear-gradient(#f3e7e9, #e3eeff);
+    padding: 2rem;
+}
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-tab {    
+    width: 63.5rem;
+    border: 1px solid black;
+    padding: 0.8rem;
+    box-sizing: border-box;
+}
+.cart-tab {
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 0.5rem;
+    margin: 2rem 5rem;
+    padding: 1rem;
+}
+.choose-tab button {
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    font: 1.2rem fangsong;
+}
+.nav-tab div {
+    font: 1.2rem fangsong;
+}
+.buy-tab {
+    background: linear-gradient(#fdcbf1, #e6dee9);
+    text-transform: capitalize;
+    cursor: pointer;
+    font: 1.2rem fangsong;
+    width: 10rem;
+    height: 2.5rem;
+    border: 0;
+}

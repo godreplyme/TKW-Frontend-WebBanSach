@@ -1,0 +1,38 @@
+ul.menu-tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font: 1.3rem fangsong;
+}
+ul.menu-tab > li > a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    padding: 0 0.3rem;
+}
+@keyframes doimau {
+    from {color: lightseagreen;}
+    to {color: #fb786f;}
+}
+ul.menu-tab > li > a:last-child {    
+    animation: doimau 2s ease infinite;
+}
+ul.menu-tab > li > i {
+    padding-right: 0.3rem;
+    padding-left: 0.1rem;
+}
+.products-tab {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: whitesmoke;
+}
+.picture > div {
+    width: 50%;
+}
+.pic-detail > div {
+    width: 20%;
+}
+.picture img {
+    width: 100%
+}

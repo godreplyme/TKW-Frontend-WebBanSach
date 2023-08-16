@@ -1,6 +1,11 @@
 // slider
-let countSlider=0;
-function rightSlider(){
+let countSlider=-1;
+function rightSlider(){ 
+     countSlider++;
+    if(countSlider>3)
+    {
+        countSlider=0;
+    } 
     document.querySelector(".slider-content-top-images").style.right=countSlider*100+('%');   
     let dotSlider = document.querySelectorAll(".slider-content-top-bottom li div");
     dotSlider.forEach(function(dot,count){
@@ -10,13 +15,16 @@ function rightSlider(){
         dot.classList.add("active")
        }
     })
-    countSlider++; 
-    if(countSlider>3)
-    {
-        countSlider=0;
-    }
+   clearInterval(timer)
+   runslider()
 }   
 function leftSlider(){
+   
+    countSlider--;   
+    if(countSlider<0)
+    {
+        countSlider=3;
+    }
     document.querySelector(".slider-content-top-images").style.right=countSlider*100+('%');
     let dotSlider = document.querySelectorAll(".slider-content-top-bottom li div");
     dotSlider.forEach(function(dot,count){
@@ -26,17 +34,15 @@ function leftSlider(){
         dot.classList.add("active")
        }
     })
-    countSlider--;   
-    if(countSlider<0)
-    {
-        countSlider=3;
-    }
+    clearInterval(timer)
+    runslider()
 } 
 // hàm remove
 function removeActive(){
     let unActive = document.querySelector(".active")
     unActive.classList.remove('active')
 }
+// chấm đen trong slider
 document.addEventListener("DOMContentLoaded", function() {
     let dotSlider = document.querySelectorAll(".slider-content-top-bottom li div");
     dotSlider.forEach(function(dot,countSlider){
@@ -65,11 +71,27 @@ function leftProduct(event){
         countSliderProduct=10;
     }
 }
-function topFunction(){
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
 
+let timer=null
+let runslider=function(){
+    timer=setInterval(function(){
+    countSlider++;
+    if(countSlider>3)
+    {
+        countSlider=0;
+    } 
+    document.querySelector(".slider-content-top-images").style.right=countSlider*100+('%');   
+    let dotSlider = document.querySelectorAll(".slider-content-top-bottom li div");
+    dotSlider.forEach(function(dot,count){
+       if(countSlider==count)
+       {
+        removeActive();
+        dot.classList.add("active")
+       }
+    })
+  },2000)
+}
+runslider()
 // jQuery
 $(document).ready(function(){
     $(".modal-overlay").click(function(){

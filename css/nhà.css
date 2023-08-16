@@ -295,7 +295,7 @@ footer{
 }
 .main-box{
     border-radius: 10px;
-    padding:20px;
+    padding:10px;
     background-color: white;
 }
 .main-left{
@@ -387,12 +387,8 @@ footer{
     position: absolute;
     text-align: center;
     width:20%;
-    padding:20px 0;
+    padding:10px 0;
     border-radius: 10px;
-}
-.writer a{
-    color:rgb(34, 135, 34);
-    padding-bottom:5px;
 }
 .price{
     font-size: 18px;
@@ -415,6 +411,16 @@ footer{
     font-weight: bold;
     font-size:15px;
     padding:3px;
+}
+.rate{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    padding:10px;
+    justify-content: space-around;
+}
+.fa-star{
+    color:#ddd
 }
 .product>img{
     transition:all 0.5s ease;
@@ -489,7 +495,7 @@ footer{
     transform:translateX(1400%)
 } 
 .xemthem-btn{
-    margin-top:10px;
+    margin:10px 0;
     text-align: center;
 }
 .xemthem-btn button{
@@ -634,7 +640,13 @@ footer{
     z-index: 2;
     animation: offer 2s infinite;
 }
-
+.bestselling-rate{
+    width:80%;
+    margin:10px auto 0;
+    display:flex;
+    padding:10px;
+    justify-content: space-around;
+}
 /* scroll top */
 #scrollToTopButton {
     display:none;

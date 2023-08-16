@@ -1,0 +1,127 @@
+/* tablet */
+@media only screen and (min-width:46.25em) and (max-width:63.9375em){
+    .banner, .header,.contacts{
+        display:none;
+    }
+    body{
+        width:100%;
+    }
+    .categories{
+        display:none;
+    }
+    .advertisement-banner{
+        width:100%;
+    }
+    .mini-cate>ul{
+        flex-wrap: wrap;
+    }
+    .mini-cate>ul>li{
+        width:25%;  
+    }
+    .mini-cate>ul>li>a{
+        text-align: center;
+    }
+    .bestselling-product{
+        width: 40%;
+    }
+    .product{
+        width:33%;
+    }
+    footer{
+        display:block;  
+    }
+    .left-footer{
+        width:100%;
+    }
+    .right-footer{
+        width:100%;
+    }
+    .mobile-header{
+        display:block;
+    }
+} 
+@media only screen and (max-width:46.1875em){
+    .banner, .header,.contacts{
+        display:none;
+    }
+    body{
+        width:100%;
+    }
+    .categories{
+        display:none;
+    }
+    .advertisement-banner{
+        width:100%;
+    }
+    .mini-cate>ul{
+        flex-wrap: wrap;
+    }
+    .mini-cate>ul>li{
+        width:25%;  
+    }
+    .mini-cate img{
+        width:100%;
+        height:100%;
+    }
+    .mini-cate>ul>li>a{
+        text-align: center;
+    }
+    .slider-content-bottom{
+        display:none;
+    }
+    .bestselling-product{
+        width: 90%;
+    }
+    .main-box{
+        padding:5px;
+    }
+    .product{
+        width:45%;
+        padding:10px;
+    }
+    .product-btn{
+        display:none;
+    }
+    footer{
+        display:block;  
+    }
+    .left-footer{
+        width:100%;
+    }
+    .right-footer{
+        width:100%;
+    }
+    .functions{
+        display:block;
+    }
+    .mobile-header{
+        display:block;
+    }
+    .head-banner img,.head-banner-flex img{
+        height:100px;
+    }
+    .head-banner,.head-banner-flex{
+        height:100px;
+    }
+    .advertisement-banner{
+        height:200px;
+        padding-bottom:20px
+    }
+    .slider-content-top{
+        height:200px;
+    }
+    .slider-content-top-images{
+        height:200px;
+    }
+    .slider-content-top-images img{
+        height:200px;
+    }
+    .slider-content-top-btn{
+        display:none;
+    }
+    .mobile-ico i{
+        font-size: 15px;
+        display: inline-block;
+        padding:auto;
+    }
+}

@@ -42,6 +42,7 @@ function removeActive(){
     let unActive = document.querySelector(".active")
     unActive.classList.remove('active')
 }
+
 // chấm đen trong slider
 document.addEventListener("DOMContentLoaded", function() {
     let dotSlider = document.querySelectorAll(".slider-content-top-bottom li div");
@@ -72,6 +73,7 @@ function leftProduct(event){
     }
 }
 
+//slider auto 2s
 let timer=null
 let runslider=function(){
     timer=setInterval(function(){

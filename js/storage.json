@@ -1,112 +1,1122 @@
 [
     {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-1.jpg",
+        "name":"Lạc Giữa Tần Số Không Người Nghe",
+        "price":"68.800",
+        "rawprice":"86.000",
+        "offer":"20"
+    },   
+    {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-2.jpg",
+        "name":"Cảm Ơn Bạn Đã Không Từ Bỏ Chính Mình",
+        "price":"71.200",
+        "rawprice":"89.000",
+        "offer":"20"
+    }, 
+    {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-3.jpg",
+        "name":"Cây Cam Ngọt Của Tôi",
+        "price":"70.200",
+        "rawprice":"108.000",
+        "offer":"35"
+    }, 
+    {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-4.jpg",
+        "name":"Khéo Ăn Nói Sẽ Có Được Thiên Hạ",
+        "price":"78.000",
+        "rawprice":"130.000",
+        "offer":"40"
+    }, 
+    {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-5.jpg",
+        "name":"Dám Nghĩ Lại",
+        "price":"117.600",
+        "rawprice":"168.000",
+        "offer":"30"
+    }, 
+    {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-6.jpg",
+        "name":"Nhà Giả Kim",
+        "price":"51.350",
+        "rawprice":"79.000",
+        "offer":"35"
+    }, 
+
+
+
+
+    {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-1.jpg",
-        "name":"Từ 1 Đến 20, Số Tự Nhiên Thật Thú Vị",
-        "writer":"Park Young Hoon",
-        "price":"109.000",
-        "rawprice":"93.000",
-        "offer":"15"
+        "name":"Bộ Sách Giáo Khoa + 2 Bao Sách",
+        "price":"152.280",
+        "rawprice":"168.000",
+        "offer":"9"
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-2.jpg",
-        "name":"Số Nào Lớn Hơn, Số Nào Nhỏ Hơn",
-        "writer":"Park Young Hoon",
-        "price":"109.000",
-        "rawprice":"93.000",
-        "offer":"15"
+        "name":"Tiếng Anh 1 - Family And Friends",
+        "price":"75.050",
+        "rawprice":"79.000",
+        "offer":"5"
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-3.jpg",
-        "name":"Phép Cộng Trừ Chẳng Khó",
-        "writer":"Park Young Hoon",
-        "price":"109.000",
-        "rawprice":"93.000",
-        "offer":"15"
+        "name":"Tiếng Việt 1 - Tập 1 (Kết Nối Tri Thức)",
+        "price":"30.000",
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-4.jpg",
-        "name":"Cùng Em Luyện Cộng Trừ",
-        "writer":"Park Young Hoon",
-        "price":"109.000",
-        "rawprice":"93.000",
-        "offer":"15"
+        "name":"VBT Tiếng Việt 1/1 (Kết Nối)",
+        "price":"13.000",
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-5.jpg",
-        "name":"Cộng Trừ Khắp Quanh Ta",
-        "writer":"Park Young Hoon",
-        "price":"109.000",
-        "rawprice":"93.000",
-        "offer":"15"
+        "name":"VBT Tiếng Việt 1/2 (Kết Nối)",
+        "price":"13.000",
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-6.jpg",
-        "name":"Em Cộng Trừ Thành Thạo",
-        "writer":"Park Young Hoon",
-        "price":"109.000",
-        "rawprice":"93.000",
-        "offer":"15"
+        "name":"Tiếng Việt 1 - Tập 2 (Kết Nối Tri Thức)",
+        "price":"29.000",
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-7.jpg",
-        "name":"To Understand English - Lớp 5",
-        "writer":"Park Young Hoon",
-        "price":"100.000",
-        "rawprice":"88.000",
-        "offer":"12"
+        "name":"Tập Viết 1 - Tập 1 (Kết Nối Tri Thức)",
+        "price":"9.000",
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-8.jpg",
-        "name":"To Understand English - Lớp 5",
-        "writer":"Park Young Hoon",
-        "price":"100.000",
-        "rawprice":"88.000",
-        "offer":"12"
+        "name":"Bộ Sách Giáo Khoa Lớp 1 - Kết Nối",
+        "price":"179.000",
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-9.jpg",
-        "name":"To Understand English - Lớp 5",
-        "writer":"Park Young Hoon",
-        "price":"100.000",
-        "rawprice":"88.000",
-        "offer":"12"
+        "name":"Toán 1/2 (Kết Nối)",
+        "price":"16.000",
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-10.jpg",
-        "name":"To Understand English - Lớp 5",
-        "writer":"Park Young Hoon",
-        "price":"100.000",
-        "rawprice":"88.000",
-        "offer":"12"
+        "name":"Mĩ Thuật 1 (Chân Trời Sáng Tạo)",
+        "price":"13.000",
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
         "type2":"cap1",
         "image":"images/sachgk/sachgkcap1-11.jpg",
-        "name":"To Understand English - Lớp 5",
-        "writer":"Park Young Hoon",
-        "price":"100.000",
+        "name":"Âm Nhạc 1 (Chân Trời Sáng Tạo)",
+        "price":"12.000",
         "rawprice":"",
         "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-12.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 1 - Cánh Diều",
+        "price":"148.520",
+        "rawprice":"164.000",
+        "offer":"9"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-13.jpg",
+        "name":"Sách Tiếng Việt 1/2 (Chân Trời Sáng Tạo)",
+        "price":"31.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-14.jpg",
+        "name":"Đạo Đức 1 (Kết Nối)",
+        "price":"12.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-15.jpg",
+        "name":"Mĩ Thuật 1 (Kết Nối)",
+        "price":"12.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-16.jpg",
+        "name":"Tự Nhiên Và Xã Hội 1 (Cánh Diều)",
+        "price":"27.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-17.jpg",
+        "name":"Tự Nhiên Và Xã Hội 1 (Kết Nối)",
+        "price":"21.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-18.jpg",
+        "name":"Toán 1 (Chân Trời Sáng Tạo)",
+        "price":"28.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-19.jpg",
+        "name":"Tiếng Việt 1/1 (Chân Trời Sáng Tạo)",
+        "price":"33.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-20.jpg",
+        "name":"Tự Nhiên Và Xã Hội 1 (Cánh Diều)",
+        "price":"27.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-21.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 2 - Chân Trời Sáng Tạo",
+        "price":"153.220",
+        "rawprice":"169.000",
+        "offer":"9"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-22.jpg",
+        "name":"Toán 2/1 (Chân Trời Sáng Tạo)",
+        "price":"22.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-23.jpg",
+        "name":"Tiếng Việt 2/2 (Chân Trời Sáng Tạo)",
+        "price":"24.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-24.jpg",
+        "name":"Âm Nhạc 2 (Chân Trời Sáng Tạo)",
+        "price":"11.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-25.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 2 - Kết Nối",
+        "price":"148.520",
+        "rawprice":"164.000",
+        "offer":"9"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-26.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 2 - Cánh Diều",
+        "price":"173.850",
+        "rawprice":"180.000",
+        "offer":"8"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-28.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 3 - Chân Trời Sáng Tạo",
+        "price":"178.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-29.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 3 - Kết Nối",
+        "price":"183.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-27.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 3 - Chân Trời Sáng Tạo",
+        "price":"194.392",
+        "rawprice":"214.000",
+        "offer":"9"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-30.jpg",
+        "name":"Tiếng Anh 3 - Global Success 1",
+        "price":"39.900",
+        "rawprice":"42.000",
+        "offer":"5"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-31.jpg",
+        "name":"Âm Nhạc 3 (Kết Nối)",
+        "price":"10.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap1",
+        "image":"images/sachgk/sachgkcap1-32.jpg",
+        "name":"Đạo Đức 3 (Kết Nối)",
+        "price":"10.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-1.jpg",
+        "name":"Tin Học 6 (Cánh Diều)",
+        "price":"18.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-2.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 6 - Kết Nối",
+        "price":"245.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-3.jpg",
+        "name":"Âm Nhạc 6(Kết Nối Tri Thức)",
+        "price":"13.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-4.jpg",
+        "name":"Toán 6 - Tập 1 (Kết Nối Tri Thức)",
+        "price":"21.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-5.jpg",
+        "name":"Ngữ Văn 6 - Tập 1 (Kết Nối Tri Thức)",
+        "price":"23.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-6.jpg",
+        "name":"Ngữ Văn 6 - Tập 2 (Kết Nối Tri Thức)",
+        "price":"20.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-7.jpg",
+        "name":"Khoa Học Tự Nhiên 6 (Kết Nối Tri Thức)",
+        "price":"32.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-8.jpg",
+        "name":"Toán 6 - Tập 2 (Kết Nối Tri Thức)",
+        "price":"20.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-9.jpg",
+        "name":"Tiếng Anh 6 - Friends Plus - Workbook",
+        "price":"75.050",
+        "rawprice":"79.000",
+        "offer":"5"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-10.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 6 - Kết Nối",
+        "price":"262.848",
+        "rawprice":"281.000",
+        "offer":"6"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-11.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 7 - Chân Trời Sáng Tạo",
+        "price":"170.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-12.jpg",
+        "name":"Tin Học 7 - Cánh Diều",
+        "price":"17.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-13.jpg",
+        "name":"Tiếng Anh 7 Friends - Workbook",
+        "price":"75.050",
+        "rawprice":"79.000",
+        "offer":"5"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-14.jpg",
+        "name":"Tin Học 7 - Kết Nối",
+        "price":"12.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-15.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 7 - Chân Trời Sáng Tạo",
+        "price":"184.300",
+        "rawprice":"200.000",
+        "offer":"8"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-16.jpg",
+        "name":"Lịch Sử Và Địa Lý 7 - Kết Nối",
+        "price":"26.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-17.jpg",
+        "name":"Mĩ Thuật 7 - Bản 2 (Chân Trời Sáng Tạo)",
+        "price":"12.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-18.jpg",
+        "name":"Mĩ Thuật 7 - Bản 1 (Chân Trời Sáng Tạo)",
+        "price":"13.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-19.jpg",
+        "name":"Ngữ Văn 7/1 (Kết Nối)",
+        "price":"20.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-20.jpg",
+        "name":"Ngữ Văn 7/2 (Kết Nối)",
+        "price":"20.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-21.jpg",
+        "name":"Công Nghệ 8 (Chân Trời Sáng Tạo)",
+        "price":"15.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-22.jpg",
+        "name":"Lịch Sử Và Địa Lý 8 (Chân Trời Sáng Tạo)",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-23.jpg",
+        "name":"Toán 8 - Tập 2 (Chân Trời Sáng Tạo)",
+        "price":"15.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-24.jpg",
+        "name":"Ngữ Văn 8 - Tập 2 (Chân Trời Sáng Tạo)",
+        "price":"18.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-25.jpg",
+        "name":"Tin Học 8 (Cánh Diều)",
+        "price":"20.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-26.jpg",
+        "name":"Khoa Học Tự Nhiên 8 (Cánh Diều)",
+        "price":"34.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-27.jpg",
+        "name":"Công Nghệ 8 (Cánh Diều)",
+        "price":"18.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-28.jpg",
+        "name":"Âm Nhạc 8 (Cánh Diều)",
+        "price":"12.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-29.jpg",
+        "name":"Ngữ Văn 8 - Tập 2 (Cánh Diều)",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-30.jpg",
+        "name":"Ngữ Văn 8 - Tập 1 (Cánh Diều)",
+        "price":"26.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-31.jpg",
+        "name":"Tiếng Anh 9 - Sách Học Sinh - Tập 1",
+        "price":"35.150",
+        "rawprice":"37.000",
+        "offer":"5"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-32.jpg",
+        "name":"Tiếng Anh 9 - Sách Học Sinh - Tập 2",
+        "price":"39.900",
+        "rawprice":"42.000",
+        "offer":"5"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-33.jpg",
+        "name":"Bộ Sách Giáo Khoa Lớp 9",
+        "price":"80.900",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-34.jpg",
+        "name":"Công Nghệ 9 - Lắp Đặt Mạng Điện Trong Nhà",
+        "price":".000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-35.jpg",
+        "name":"Âm Nhạc Và Mĩ Thuật 9",
+        "price":"11.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-36.jpg",
+        "name":"Vật Lí 9",
+        "price":"12.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-37.jpg",
+        "name":"Hóa Học 9",
+        "price":"14.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-38.jpg",
+        "name":"Toán 9 - Tập 2",
+        "price":"8.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap2",
+        "image":"images/sachgk/sachgkcap2-39.jpg",
+        "name":"Sách Bài Tập Tiếng Anh 9 - Tập 1",
+        "price":"35.150",
+        "rawprice":"37.000",
+        "offer":"5"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-1.jpg",
+        "name":"Ngữ Văn 10/1 (Chân Trời Sáng Tạo)",
+        "price":"24.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-2.jpg",
+        "name":"Ngữ Văn 10/2 (Chân Trời Sáng Tạo)",
+        "price":"20.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-3.jpg",
+        "name":"Toán 10/2 (Chân Trời Sáng Tạo)",
+        "price":"17.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-4.jpg",
+        "name":"Sinh Học 10 (Chân Trời Sáng Tạo)",
+        "price":"26.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-5.jpg",
+        "name":"Vật Lí 10 (Chân Trời Sáng Tạo)",
+        "price":"24.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-6.jpg",
+        "name":"Địa Lí 10 (Chân Trời Sáng Tạo)",
+        "price":"26.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-7.jpg",
+        "name":"Giáo Dục Quốc Phòng Và An Ninh 10 (Cánh Diều)",
+        "price":"17.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-8.jpg",
+        "name":"Công Nghệ 10: Thiết Kế Và Công Nghệ (Cánh Diều)",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-9.jpg",
+        "name":"Hóa Học 10 (Kết Nối Tri Thức)",
+        "price":"20.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-10.jpg",
+        "name":"Công Nghệ 10: Công Nghệ Trồng Trọt (Cánh Diều)",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-11.jpg",
+        "name":"Ngữ Văn 11 - Tập 2 (Chân Trời Sáng Tạo)",
+        "price":"17.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-12.jpg",
+        "name":"Địa Lí 11 (Chân Trời Sáng Tạo)",
+        "price":"24.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-13.jpg",
+        "name":"Sinh Học 11 (Chân Trời Sáng Tạo)",
+        "price":"27.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-14.jpg",
+        "name":"Vật Lí 11 (Chân Trời Sáng Tạo)",
+        "price":"18.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-15.jpg",
+        "name":"Giáo Dục Quốc Phòng An Ninh 11 (2023)",
+        "price":"15.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"sachgk",
+        "type2":"cap3",
+        "image":"images/sachgk/sachgkcap3-16.jpg",
+        "name":"Lịch Sử 11 (Kết Nối)",
+        "price":"14.000",
+        "rawprice":"",
+        "offer":""
+    },
+
+
+
+
+
+
+
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-1.jpg",
+        "name":"Tập Học Sinh Family 4 Ô Ly 200 Trang",
+        "price":"17.550",
+        "rawprice":"19.500",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-2.jpg",
+        "name":"Tập Học Sinh 4 Ô Ly 200 Trang",
+        "price":"14.850",
+        "rawprice":"16.500",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-3.jpg",
+        "name":"Tập Học Sinh 4 Ô Ly 100 Trang",
+        "price":"9.000",
+        "rawprice":"10.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-4.jpg",
+        "name":"Tập Học Sinh Best Friends - 4 Ô Ly 100 Trang",
+        "price":"9.000",
+        "rawprice":"10.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-5.jpg",
+        "name":"Combo 5 Tập Học Sinh Best Friends - 4 Ô Ly 100 Trang",
+        "price":"42.750",
+        "rawprice":"50.000",
+        "offer":"15"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-6.jpg",
+        "name":"Tập Học Sinh 4 Ly Ngang 96 Trang",
+        "price":"6.000",
+        "rawprice":"6.500",
+        "offer":"8"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-7.jpg",
+        "name":"Tập Sinh Viên Life - Kẻ Ngang 200 Trang",
+        "price":"20.700",
+        "rawprice":"23.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-8.jpg",
+        "name":"Tập Học Sinh 4 Ô Ly 100 Trang - Lớp Học Mật Ngữ",
+        "price":"9.000",
+        "rawprice":"10.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-9.jpg",
+        "name":"Combo 5 Tập Học Sinh Family 4 Ô Ly 200 Trang",
+        "price":"83.363",
+        "rawprice":"97.500",
+        "offer":"15"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-10.jpg",
+        "name":"Tập Sinh Viên 4 Ly Ngang 200 Trang",
+        "price":"20.700",
+        "rawprice":"23.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-11.jpg",
+        "name":"Tập Học Sinh Funny Cats 4 Ô Ly 100 Trang",
+        "price":"12.150",
+        "rawprice":"13.500",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-12.jpg",
+        "name":"Tập Sinh Viên Caro Vintage Kẻ Ngang 200 Trang",
+        "price":"18.900",
+        "rawprice":"21.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-13.jpg",
+        "name":"Vở Shinchan Fun - 4 Ô Ly 96 Trang",
+        "price":"17.600",
+        "rawprice":"27.000",
+        "offer":"35"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-14.jpg",
+        "name":"Tập Học Sinh Kẻ Ngang 200 Trang Dream Catcher",
+        "price":"17.550",
+        "rawprice":"19.500",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"tapvo",
+        "image":"images/dodung/vo-15.jpg",
+        "name":"Vở Juvenile B5 Kẻ Ngang Có Chấm 80 Trang",
+        "price":"10.400",
+        "rawprice":"13.000",
+        "offer":"20"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-1.jpg",
+        "name":"Máy Tính Casio FX 580 VN X + Ứng Dụng Casio",
+        "price":"783.300",
+        "rawprice":"877.000",
+        "offer":"11"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-2.jpg",
+        "name":"Bút Bi Thiên Long TL-089-Mực Xanh",
+        "price":"3.600",
+        "rawprice":"4.500",
+        "offer":"20"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-3.jpg",
+        "name":"Thước Thẳng 20cm - Thiên Long - SR-022",
+        "price":"2.700",
+        "rawprice":"3.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-4.jpg",
+        "name":"Thước Parabol Nhựa Dẻo WinQ QL-01",
+        "price":"4.050",
+        "rawprice":"4.500",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-5.jpg",
+        "name":"Gôm Staedtler",
+        "price":"17.100",
+        "rawprice":"19.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-6.jpg",
+        "name":"Gôm Đen Thiên Long E-011",
+        "price":"4.500",
+        "rawprice":"5.500",
+        "offer":"18"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-7.jpg",
+        "name":"Bộ Thước Compa Masterart F719",
+        "price":"50.400",
+        "rawprice":"56.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-8.jpg",
+        "name":"Bộ Dụng Cụ Cắt Khâu Thêu Lớp 5 (Lớn)",
+        "price":"72.900",
+        "rawprice":"81.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-9.jpg",
+        "name":"Bộ Lắp Ghép Mạch Điện Lớp 5",
+        "price":"55.800",
+        "rawprice":"62.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-10.jpg",
+        "name":"Bút Chì Bấm 2.0 mm HB - Thiên Long",
+        "price":"4.400",
+        "rawprice":"5.500",
+        "offer":"20"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-11.jpg",
+        "name":"Bọ Bút Chì Thi Trắc Nghiệm 2B 1.3mm + 1 Gôm",
+        "price":"46.400",
+        "rawprice":"58.000",
+        "offer":"20"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-12.jpg",
+        "name":"Viết Máy Cá Sấu Nét Nhỏ",
+        "price":"49.500",
+        "rawprice":"55.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-13.jpg",
+        "name":"Bút Mài Ánh Dương 024",
+        "price":"117.000",
+        "rawprice":"130.000",
+        "offer":"10"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-14.jpg",
+        "name":"Máy Tính CASIO FX - 880BTG - Màu Xanh Biển",
+        "price":"779.000",
+        "rawprice":"820.000",
+        "offer":"5"
+    },
+    {
+        "type1":"dodung",
+        "type2":"dungcu",
+        "image":"images/dodung/dungcu-15.jpg",
+        "name":"Mực Viết Máy Queen - Mực Tím",
+        "price":"16.650",
+        "rawprice":"18.500",
+        "offer":"10"
     }
+    
+
 ]

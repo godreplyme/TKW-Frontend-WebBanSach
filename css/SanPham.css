@@ -1,4 +1,7 @@
+<<<<<<< HEAD
                                         /* HEADER */
+=======
+>>>>>>> e93bb0e39939d27bc0d7e5a7863e31653a5829b3
 body{
     background-color:rgb(230,230,230);
     width:80%; 
@@ -105,7 +108,13 @@ a{
 .right-contact ul>li:last-child{
     border:none;
 }
+<<<<<<< HEAD
                                     /* BODY */                                    
+=======
+
+
+
+>>>>>>> e93bb0e39939d27bc0d7e5a7863e31653a5829b3
 ul.menu-tab {
     list-style-type: none;
     margin: 0;
@@ -321,6 +330,67 @@ div.pro-comment1 > div > span {
     flex-direction: column;
 }
                                     /* FOOTER */
+
+footer{
+
+    display:flex;
+    margin-top:20px;
+    padding:20px 0;
+    background-color: white;
+}
+.left-footer{
+    width:35%;
+    padding:10px;
+    border-right:1px solid;
+}
+.left-footer ul{
+    display:flex;
+}
+
+.left-footer>img{
+    width:50%;
+    padding:5px;
+    display:block;
+}
+.right-footer{
+    width:65%;
+}
+.operating-systems img{
+    width:100%;  
+}
+.operating-systems li{
+    width:25%;
+    padding-left:5px
+}
+.functions,.payment,.ship {
+    display:flex;
+    justify-content:space-around ;
+}
+.functions>li{
+    padding: 0 20px;
+}
+.sub-function a{
+    padding:15px 0;
+    text-decoration: solid;
+}   
+.payment li{
+    width:20%;
+}
+.payment img{
+    width:100%;
+}
+.ship li{
+    width:10%;
+    text-align: center;
+}
+.ship a{
+    margin:auto;
+}
+.ship img{
+    width:100%;
+}
+
+
 
 footer{
 

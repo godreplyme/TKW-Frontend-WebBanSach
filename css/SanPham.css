@@ -1,38 +1,382 @@
+                                        /* HEADER */
+body{
+    background-color:rgb(230,230,230);
+    width:80%; 
+    margin:0 auto; 
+    display: relative;
+}
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+a{
+    display:block;
+}
+.banner>a>img{
+    width:100%;
+    max-width:100%;
+}
+.header{
+    background-color: #f8f8f8;  
+    max-width:100%;  
+}
+.container
+{
+    display:flex;
+   
+    justify-content: space-between;
+}
+.left-header{
+    width:20%;
+}
+.left-header img{
+    margin:auto 0;
+    width:100%;
+    height:100%;
+}
+.mid-header{
+    width:40%;
+    margin:auto 20px;
+    height:50%;
+    display:flex;
+}
+.mid-header input{
+    border: none;
+    width:90%;
+    outline: none;
+    padding:10px;
+
+}
+.mid-header button{
+    background-color: white;
+    padding:10px;
+    width:10%;
+    border:none;
+}
+.right-header{
+    display:flex;
+    flex-grow:1;
+    margin:auto;
+}
+ .item-menu {
+    margin:auto;
+}
+.item-menu a{
+    color:black;
+    padding:10px;  
+    text-align: center;
+    transition: transform 0.3s;
+}
+.item-menu a:hover{
+    color:orange;
+    transform: translateY(-5px);
+}
+.contacts{
+    background-color: green;
+}
+.contact{
+    display:flex;
+    justify-content: space-between;
+}
+.contact{
+    color:white;
+}
+.left-contact{
+    width:20%;
+}
+.left-contact ul{
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
+.right-contact ul{
+    display:flex;
+    justify-content: flex-end;
+    padding:10px;
+}
+.right-contact ul>li{
+    border-right:2px solid;
+}
+.right-contact ul>li:last-child{
+    border:none;
+}
+                                    /* BODY */                                    
 ul.menu-tab {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    font: 1.3rem fangsong;
+    font: 3rem fangsong;
 }
 ul.menu-tab > li > a {
     text-decoration: none;
     text-transform: capitalize;
     color: black;
-    padding: 0 0.3rem;
+    padding-right: 0.3rem;
 }
 @keyframes doimau {
     from {color: lightseagreen;}
     to {color: #fb786f;}
 }
-ul.menu-tab > li > a:last-child {    
+ul.menu-tab li:last-child a {    
     animation: doimau 2s ease infinite;
 }
 ul.menu-tab > li > i {
     padding-right: 0.3rem;
     padding-left: 0.1rem;
 }
+                                /* PRODUCT */
 .products-tab {
     margin: 2rem 0;
     padding: 1rem;
-    background: whitesmoke;
+    background: white;
+    display:flex;
+    border-radius: 0.5rem;
 }
-.picture > div {
-    width: 50%;
+.picture {
+    width: 40%;
 }
 .pic-detail > div {
+    padding: 5px;
     width: 20%;
 }
 .picture img {
-    width: 100%
+    width: 100%;
+}
+.name-tab {
+    width: 60%;
+    padding: 0 2rem;
+}
+.pro-quality {
+    display: flex;
+    padding-top: 1.5rem;
+}
+div.pro-quality > div {
+    padding: 0 0.7rem;
+    border-right: 1px ridge black;
+}
+.pro-price {
+    display: flex;
+    background: whitesmoke;
+    padding: 1rem;
+}
+div.pro-price > div {    
+    padding: 0 1rem;
+}
+@keyframes doimau1 {
+    from {background: lightseagreen;}
+    to {background: #fb786f;}
+}
+div.pro-price > div > button:last-child {  
+    border: 0;
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    animation: doimau1 1.5s ease infinite;
+}
+.animated-tab {
+    display: inline-block;  
+    animation: pulse ease infinite; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.5s; /* don't forget to set a duration! */
+}
+div.info-tab > div{
+    padding: 1rem 0;
+}
+.same-tab {
+    padding-left: 1rem; 
+    cursor: pointer;
+}
+.quantity-tab {    
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    margin-left: 1rem; 
+}
+div.quantity-tab > input {
+    background: white;
+    text-align: center;
+    border: 0;
+    width: 1rem;
+    font-weight: 700;
+    height: 3rem;
+}
+div.quantity-tab > button {
+    background: white;    
+    border: none;
+    width: 3rem;   
+}
+.add-tab {
+    background: peachpuff;
+    cursor: pointer;
+    font: 1.3rem fangsong;
+    color: tomato;
+    width: 14rem;
+    height: 3.5rem;
+    border: 1.5px solid lightsalmon;
+    border-radius: 0.2rem;
+}
+.bought-tab {
+    color: white;
+    margin-left: 2rem;
+    background: tomato;
+    cursor: pointer;
+    font: 1.3rem fangsong;
+    width: 10rem;
+    height: 3.5rem;
+    border: 1.5px solid red;
+    border-radius: 0.2rem;
+}
+                                /* VOUCHER */
+.voucher-tab {
+    background: white;
+    border-radius: 0.2rem;
+    padding: 1.2rem;
+    padding-top: 0.4rem;
+    border-radius: 0.5rem;
+}
+div.voucher-tab > div{
+    display: flex;
+    padding: 1rem 0;
+}
+div.vcmini-tab > div{   
+    padding-right: 2rem;   
+    cursor: pointer; 
+}
+div.vcmini-tab > div > span:hover {
+    color:red;
+    display: inline-block;  
+    animation: pulse ease infinite;
+    animation-duration: 1s;
+    text-decoration: underline;
+}
+                                    /* PRODUCT DETAIL */
+.pro-detail {
+    background: white;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+}
+div.word-font > span {
+    font: normal bold 1.5rem Arial;
+    color: tomato;
+}
+.pro-detail-tab > tr > th {
+    display: flex;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+    color: gray;
+}
+.pro-detail-tab > tr > td {
+    padding-left: 10rem ;
+    padding-bottom: 1rem;
+}
+                                    /* HINT PRODUCT */
+.pro-hint {
+    background: white;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+}
+div.pro-hint1 > div > button:last-child {  
+    border: 0;
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    animation: doimau1 1.5s ease infinite;
+}
+                                    /* COMMENT */
+.pro-comment {
+    background: white;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+}
+.com-pic1 {    
+    width: 6rem;
+    border: 1px dashed tomato;
+}
+.com-pic2 {
+    margin-top: 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px dashed tomato;
+}
+div.pro-comment1 > div > span {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.pro-comment2 {
+    padding-top: 1rem;
+}
+.pro-comment2-text {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+                                    /* FOOTER */
+
+footer{
+
+    display:flex;
+    margin-top:20px;
+    padding:20px 0;
+    background-color: white;
+}
+.left-footer{
+    width:35%;
+    padding:10px;
+    border-right:1px solid;
+}
+.left-footer ul{
+    display:flex;
+}
+
+.left-footer>img{
+    width:50%;
+    padding:5px;
+    display:block;
+}
+.right-footer{
+    width:65%;
+}
+.operating-systems img{
+    width:100%;  
+}
+.operating-systems li{
+    width:25%;
+    padding-left:5px
+}
+.functions,.payment,.ship {
+    display:flex;
+    justify-content:space-around ;
+}
+.functions>li{
+    padding: 0 20px;
+}
+.sub-function a{
+    padding:15px 0;
+    text-decoration: solid;
+}   
+.payment li{
+    width:20%;
+}
+.payment img{
+    width:100%;
+}
+.ship li{
+    width:10%;
+    text-align: center;
+}
+.ship a{
+    margin:auto;
+}
+.ship img{
+    width:100%;
 }

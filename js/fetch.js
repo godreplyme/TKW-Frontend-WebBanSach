@@ -136,7 +136,7 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
 // ----------sản phẩm trang chủ----------//
 
     //hàm load sẵn sau khi trang chủ tải xong//
-let productContainerSGK=document.querySelector(".products-container")
+let productContainerSGK=document.querySelector(".products-container-sgk")
 fetch("js/storage.json").then(res=>res.json()).then(data=>{
     for(let d of data)
     { 

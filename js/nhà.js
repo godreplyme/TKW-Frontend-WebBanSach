@@ -51,6 +51,8 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(".slider-content-top-images").style.right=countSlider*100+('%');
             removeActive()
             dot.classList.add('active')
+            clearInterval(timer)
+            runslider()
         })
     })
 });
@@ -113,8 +115,23 @@ $(document).ready(function(){
 //             let d = document.getElementsByClassName("sub-category")
 //         }
 // }   
+var categoryItems = document.querySelectorAll('.category > li');
 
+// Duyệt qua từng li con và thêm sự kiện hover
+categoryItems.forEach(item => {
+  var subCategory = item.querySelector('.sub-category');
 
+  item.addEventListener('mouseenter', function() {
+    subCategory.style.display = 'block';
+    document.querySelector(".advertisement-banner").style.display='none'
+  });
+
+  item.addEventListener('mouseleave', function() {
+    subCategory.style.display = 'none';
+    document.querySelector(".advertisement-banner").style.display='block'
+
+  });
+});
 //scrollbutton
 const scrollToTopButton = document.getElementById("scrollToTopButton");
 

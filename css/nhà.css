@@ -699,31 +699,11 @@ footer{
     left:100%;
     width:1080px;
     height:600px;
-    background-size: cover;
-    display:flex;
-    background-color:white;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
     display:none;
-}
-.sub-category:nth-child(4){
-    background-image: url(sach\ giao\ khoa\ giao\ trinh.png);
-}
-.category>li>.sub-category:nth-child(5){
-    background-image: url(sach\ van\ hoc\ trog\ nuoc.png);
-}
-.sub-category:nth-child(6){
-    background-image: url(sach\ van\ hoc\ nuoc\ ngoai.png);
-}
-.sub-category:nth-child(7){
-    background-image: url(sach\ thieu\ nhi.png);
-}
-.sub-category:nth-child(8){
-    background-image: url(sach\ tin\ hoc\ ngoai\ ngu.png);
-}
-.sub-category:nth-child(9){
-    background-image: url(sach\ chuyen\ nganh.png);
-}
-.sub-category:nth-child(12){
-    background-image: url(sachthuongthuc.png);
+    
 }
 .sub-category>li{
     padding-top:10px;

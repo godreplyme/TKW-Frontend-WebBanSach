@@ -9,7 +9,6 @@ function showCart(){
             kq+=`
             <div class="cart-container">
                 <div class="cart-product">
-                    <input class="box-tab" type="checkbox">
                     <img src="${cart[i]["hinh"]}">
                 </div>      
                 <div class="cart-name">

@@ -110,11 +110,8 @@ a{
     justify-content: space-between;   
 }
 .title {
-    font: italic normal bold 2.5rem  Arial;
-    /* color: #ff9a9e; */
-    color: white;
-    padding: 0 3rem;
-    background: linear-gradient(#FFAFBD, #ffc3a0);
+    padding: 1rem 2rem;
+    background: linear-gradient(mistyrose, aliceblue);
     margin: 2rem 0;
 }
 section {
@@ -132,6 +129,7 @@ section {
     border: 0;
     border-radius: 0.5rem;
     margin: 2rem 5rem;
+    padding: 1rem;
 }
 .choose-tab button {
     background:linear-gradient(#fdcbf1, #e6dee9);    

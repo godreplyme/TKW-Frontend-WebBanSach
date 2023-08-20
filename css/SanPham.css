@@ -300,6 +300,16 @@ div.pro-hint1 > div > button:last-child {
 .products-hint img:hover {
     transform: scale(0.8);
 }
+.products-hint {
+    display: flex;
+}
+.products-hint > div {
+    width: 20%;
+}
+.products-hint img {
+    width: 100%;
+    height: 100%;
+}
                                     /* COMMENT */
 .pro-comment {
     background: white;

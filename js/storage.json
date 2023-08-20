@@ -876,15 +876,14 @@
     },
 
 
-<<<<<<< HEAD
     {
         "type1":"sachgk",
         "type2":"daihoc",
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
@@ -892,8 +891,8 @@
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
@@ -901,8 +900,8 @@
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
@@ -910,8 +909,8 @@
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
@@ -919,8 +918,8 @@
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
@@ -928,8 +927,8 @@
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
@@ -937,8 +936,8 @@
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
@@ -946,8 +945,8 @@
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
@@ -955,8 +954,8 @@
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
     {
         "type1":"sachgk",
@@ -964,10 +963,9 @@
         "image":"images/sachgk/sachgkdaihoc.jpg",
         "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
         "price":"46.750",
-        "rawprice":"55.000 ",
-        "offer":"15"
+        "rawprice":"",
+        "offer":""
     },
-=======
 
 
     {
@@ -1105,13 +1103,6 @@
         "rawprice":"80.000",
         "offer":"20"
     },
-
-
-
-
-
-
->>>>>>> 0e8e241d05d4a41a532389f6c4688d17dc11a223
 
 
     {

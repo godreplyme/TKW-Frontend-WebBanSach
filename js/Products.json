@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "name": "Lập Trình Web",
+    "image": "images/sachcntt/laptrinhweb.jpg",
+    "price": "29.000",
+    "cost": "38.000",
+    "discount": "25" 
+}, {
+    "id": 2,
+    "name": "Cấu Trúc Dữ Liệu",
+    "image": "images/sachcntt/cautrucdulieu.jpg",
+    "price": "29.000",
+    "cost": "38.000",
+    "discount": "25" 
+}, {
+    "id": 3,
+    "name": "Lập Trình Giao Diện",
+    "image": "images/sachcntt/laptrinhgiaodien.jpg",
+    "price": "29.000",
+    "cost": "38.000",
+    "discount": "25" 
+}, {
+    "id": 4,
+    "name": "Hành Trang Lập Trình",
+    "image":"images/sachcntt/hanhtranglaptrinh.jpg",
+    "price": "152.000",
+    "cost": "179.000",
+    "discount": "15" 
+}]

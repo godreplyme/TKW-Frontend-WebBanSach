@@ -266,14 +266,11 @@ function sachGiaoKhoaDoDung(event){
 // ----------Sản phẩm trang chủ----------//
 
 
-<<<<<<< HEAD
-=======
 
 
 //----------Trang danh mục sản phẩm----------//
 
     //mục sách giáo khoa - giáo trình//
->>>>>>> 0e8e241d05d4a41a532389f6c4688d17dc11a223
 function sachGiaoKhoa(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -408,7 +405,7 @@ function sachGiaoKhoaCap3(){
             addLocalStorageCate()
     })
 }
-<<<<<<< HEAD
+
 function sachGiaoKhoaDaiHoc(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -1059,7 +1056,7 @@ function sachTapChiVanPhongPham(){
                     `)}
             }
     })
-=======
+}
 function loadSoLuong()
 {
     cart=JSON.parse(localStorage.getItem("cart"))
@@ -1068,11 +1065,11 @@ function loadSoLuong()
         document.getElementById("soluong").innerHTML=cart.length
     }
 }
+
 function loadCart(){
     cart=JSON.parse(localStorage.getItem("cart"))
     if (cart!=null)
     {
         document.getElementById("soluongcart").innerHTML=cart.length
     }
->>>>>>> 0e8e241d05d4a41a532389f6c4688d17dc11a223
 }

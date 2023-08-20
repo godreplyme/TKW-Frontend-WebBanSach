@@ -876,6 +876,7 @@
     },
 
 
+<<<<<<< HEAD
     {
         "type1":"sachgk",
         "type2":"daihoc",
@@ -966,6 +967,151 @@
         "rawprice":"55.000 ",
         "offer":"15"
     },
+=======
+
+
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-1.jpg",
+        "name":"Cây Cam Ngọt Của Tôi",
+        "price":"70.200",
+        "rawprice":"108.000",
+        "offer":"35"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-2.jpg",
+        "name":"Nhà Giả Kim",
+        "price":"51.350",
+        "rawprice":"70.000",
+        "offer":"35"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-3.jpg",
+        "name":"Chưa Kịp Lớn Đã Trưởng Thành",
+        "price":"63.200",
+        "rawprice":"79.000",
+        "offer":"20"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-4.jpg",
+        "name":"Ghi Chép Pháp Y - Những Cái Chết Bí Ẩn",
+        "price":"120.000",
+        "rawprice":"150.000",
+        "offer":"20"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-5.jpg",
+        "name":"Bước Chậm Lại Giữa Thế Gian Vội Vã",
+        "price":"55.250",
+        "rawprice":"85.000",
+        "offer":"35"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-6.jpg",
+        "name":"Chiến Binh Cầu Vồng",
+        "price":"70.850",
+        "rawprice":"100.000",
+        "offer":"35"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-7.jpg",
+        "name":"Người Đua Diều",
+        "price":"83.850",
+        "rawprice":"129.000",
+        "offer":"35"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-8.jpg",
+        "name":"Hãy Chăm Sóc Mẹ",
+        "price":"68.900",
+        "rawprice":"106.000",
+        "offer":"35"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-9.jpg",
+        "name":"Ngôi Nhà Kỳ Quái",
+        "price":"85.560",
+        "rawprice":"138.000",
+        "offer":"38"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-10.jpg",
+        "name":"Ngàn Mặt Trời Rực Rỡ",
+        "price":"84.500",
+        "rawprice":"130.000",
+        "offer":"35"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-11.jpg",
+        "name":"Rừng Nauy",
+        "price":"97.500",
+        "rawprice":"150.000",
+        "offer":"35"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-12.jpg",
+        "name":"Phía Tây Không Có Gì Lạ",
+        "price":"52.000",
+        "rawprice":"80.000",
+        "offer":"35"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-13.jpg",
+        "name":"Người Đàn Bà Tài Giỏi Vùng Saga",
+        "price":"79.360",
+        "rawprice":"128.000",
+        "offer":"38"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-15.jpg",
+        "name":"Có Hai Con Mèo Ngồi Bên Cửa Sổ",
+        "price":"90.000",
+        "rawprice":"100.000",
+        "offer":"10"
+    },
+    {
+        "type1":"sachtrongnuoc",
+        "type2":"vanhoc",
+        "image":"images/sachtrongnuoc/sachvanhoc-14.jpg",
+        "name":"Cho Tôi Xin Một Vé Đi Tuổi Thơ",
+        "price":"64.000",
+        "rawprice":"80.000",
+        "offer":"20"
+    },
+
+
+
+
+
+
+>>>>>>> 0e8e241d05d4a41a532389f6c4688d17dc11a223
 
 
     {

@@ -106,7 +106,8 @@ a{
 }
 .Flex {
     display: flex;    
-    align-items: center;    
+    align-items: center; 
+    justify-content: space-between;   
 }
 .title {
     font: italic normal bold 2.5rem  Arial;
@@ -120,13 +121,8 @@ section {
     background: linear-gradient(#f3e7e9, #e3eeff);
     padding: 2rem;
 }
-.content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-}
 .nav-tab {    
-    width: 75rem;
+    width: 100%;
     border: 1px solid black;
     padding: 0.8rem;
     box-sizing: border-box;
@@ -138,10 +134,14 @@ section {
     margin: 2rem 5rem;
 }
 .choose-tab button {
-    border: 0;
-    background: 0;
+    background:linear-gradient(#fdcbf1, #e6dee9);    
+    border: 0; 
+    padding:0.5rem;
     cursor: pointer;
     font: 1.2rem fangsong;
+}
+.box-tab{
+    margin:auto 0;
 }
 .nav-tab div {
     font: 1.2rem fangsong;
@@ -151,11 +151,63 @@ section {
     text-transform: capitalize;
     cursor: pointer;
     font: 1.2rem fangsong;
-    width: 10rem;
+    width: 10%;
     height: 2.5rem;
     border: 0;
 }
-/* footer */
+.product{
+    width:60%;
+}
+.price{
+    width:20%;
+}
+.amount{
+    width:10%;
+}
+.activity{
+    width:10%;
+}
+.choose-tab{
+    width:60%;
+}
+.conclusion{
+    display:flex;
+    align-items: center;
+    border:1px solid ;
+    padding:0.8rem
+}
+.sum-tab{
+    width:30%;
+}
+.cart-container{
+    display:flex;
+    align-items: center;
+}
+.cart-content{
+    padding:0.8rem;
+}
+.cart-product{
+    width:20%;
+}
+.cart-product img{
+    width:50%;
+}
+.cart-name{
+    width:40%;
+}
+.cart-price{
+    width:20%;
+}
+.cart-amount{
+    width:10%;
+}
+.cart-amount input{
+    width:50%;
+}
+/* .cart-container{
+    display:flex;
+    justify-content: space-around;
+} */
 /* footer */
 footer{
 

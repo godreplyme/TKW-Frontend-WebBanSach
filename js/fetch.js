@@ -1,4 +1,102 @@
-//-----best-selling-----
+//----------hàm lấy dữ liệu sản phẩm từ json để thêm vào giỏ hàng----------//
+var giohang=[]
+var cartData = localStorage.getItem("cart");
+if (cartData !== null) {
+  giohang = JSON.parse(cartData); // Nếu có, gán dữ liệu từ localStorage cho giohang
+}
+function addLocalStorage(){
+    const cartBtn=document.querySelectorAll(".cart-btn")
+    cartBtn.forEach(function(button,index){
+        button.addEventListener("click",function(event){
+            var btnItem=event.target 
+            // console.log(btnItem)
+            var product=btnItem.parentElement
+            // console.log(product)
+            var productImg=product.querySelector(".product img").src
+            var productName=product.querySelector(".product-name").innerText
+            var productPrice=product.querySelector(".price").innerText
+            var soluong=1
+            var check=0
+
+            for(let j=0;j<giohang.length;j++)
+            {
+                if(giohang[j]["ten"]==productName)
+                {   
+                    giohang[j]["soluong"]+=soluong
+                    check=1
+                    break
+                }
+            }
+            if(check==0)
+            {
+                var sp={
+                    "hinh":productImg,
+                    "ten":productName,
+                    "gia":productPrice,
+                    "soluong":soluong
+                }
+                giohang.push(sp) 
+            }
+            alert("Đã thêm sản phẩm vào giỏ hàng!!!")
+            localStorage.setItem("cart",JSON.stringify(giohang))
+            var cart=JSON.parse(localStorage.getItem("cart"))
+            if (cart!=null)
+            {
+                document.getElementById("soluong").innerHTML=cart.length
+            }
+        })
+    })
+}
+function addLocalStorageCate(){
+    const cartBtn=document.querySelectorAll(".cart-btn")
+    cartBtn.forEach(function(button,index){
+        button.addEventListener("click",function(event){
+            var btnItem=event.target 
+            // console.log(btnItem)
+            var product=btnItem.parentElement
+            // console.log(product)
+            var productImg=product.querySelector(".product img").src
+            var productName=product.querySelector(".name").innerText
+            var productPrice=product.querySelector(".price").innerText
+            var soluong=1
+            var check=0
+
+            for(let j=0;j<giohang.length;j++)
+            {
+                if(giohang[j]["ten"]==productName)
+                {   
+                    giohang[j]["soluong"]+=soluong
+                    check=1
+                    break
+                }
+            }
+            if(check==0)
+            {
+                var sp={
+                    "hinh":productImg,
+                    "ten":productName,
+                    "gia":productPrice,
+                    "soluong":soluong
+                }
+                giohang.push(sp) 
+            }
+            alert("Đã thêm sản phẩm vào giỏ hàng!!!")
+            localStorage.setItem("cart",JSON.stringify(giohang))
+            var cart=JSON.parse(localStorage.getItem("cart"))
+            if (cart!=null)
+            {
+                document.getElementById("soluong").innerHTML=cart.length
+            }
+        })
+    })
+}
+//----------hàm lấy dữ liệu sản phẩm từ json để thêm vào giỏ hàng----------//
+
+
+
+
+
+//----------best-selling----------//
 let productContainerBest=document.querySelector(".bestselling-row2")
 fetch("js/storage.json").then(res=>res.json()).then(data=>{
     for(let d of data)
@@ -30,10 +128,14 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
     } 
  
 })
-//-----best-selling-----
+//----------best-selling----------//
 
 
-// -----sản phẩm trang chủ-----
+
+
+// ----------sản phẩm trang chủ----------//
+
+    //hàm load sẵn sau khi trang chủ tải xong//
 let productContainerSGK=document.querySelector(".products-container")
 fetch("js/storage.json").then(res=>res.json()).then(data=>{
     for(let d of data)
@@ -59,8 +161,12 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
         <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
     </div>
         `)}   
-    } 
+    }  
+    addLocalStorage()   
 })
+
+
+    //hàm khi nhấn vào mục sách giáo khoa//
 function sachGiaoKhoaGT(event){
 
     productContainerSGK.innerHTML = '';
@@ -89,8 +195,12 @@ function sachGiaoKhoaGT(event){
                 </div>
                     `)}
             }
-    })
-}
+            addLocalStorage()
+    }) 
+    
+} 
+
+    //hàm khi bấm vào mục tập vở//
 function sachGiaoKhoaTapVo(event){
     productContainerSGK.innerHTML = '';
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
@@ -118,9 +228,11 @@ function sachGiaoKhoaTapVo(event){
                 </div>
                     `)}
             }
+            addLocalStorage()
     })
 }
 
+    //hàm khi bấm vào mục đồ dùng học tập//
 function sachGiaoKhoaDoDung(event){
     productContainerSGK.innerHTML = '';
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
@@ -148,11 +260,20 @@ function sachGiaoKhoaDoDung(event){
                 </div>
                     `)}
             }
+            addLocalStorage()
     })
 }
-// -----Sản phẩm trang chủ-----
+// ----------Sản phẩm trang chủ----------//
 
 
+<<<<<<< HEAD
+=======
+
+
+//----------Trang danh mục sản phẩm----------//
+
+    //mục sách giáo khoa - giáo trình//
+>>>>>>> 0e8e241d05d4a41a532389f6c4688d17dc11a223
 function sachGiaoKhoa(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -180,10 +301,14 @@ function sachGiaoKhoa(){
                         <div class="price">${d.price}&#8363;</div>
                         <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                     </div>
+                    
                     `)}
             }
-    })
+            addLocalStorageCate()
+        })
 }
+
+    //mục sách giáo khoa - giáo trình (cấp1)//
 function sachGiaoKhoaCap1(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -213,8 +338,12 @@ function sachGiaoKhoaCap1(){
                     </div>
                     `)}
             }
-    })
+            addLocalStorageCate()
+        })
 }
+
+
+    //mục sách giáo khoa - giáo trình (cấp1)//
 function sachGiaoKhoaCap2(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -244,6 +373,7 @@ function sachGiaoKhoaCap2(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachGiaoKhoaCap3(){
@@ -275,8 +405,10 @@ function sachGiaoKhoaCap3(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
+<<<<<<< HEAD
 function sachGiaoKhoaDaiHoc(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -927,4 +1059,20 @@ function sachTapChiVanPhongPham(){
                     `)}
             }
     })
+=======
+function loadSoLuong()
+{
+    cart=JSON.parse(localStorage.getItem("cart"))
+    if (cart!=null)
+    {
+        document.getElementById("soluong").innerHTML=cart.length
+    }
+}
+function loadCart(){
+    cart=JSON.parse(localStorage.getItem("cart"))
+    if (cart!=null)
+    {
+        document.getElementById("soluongcart").innerHTML=cart.length
+    }
+>>>>>>> 0e8e241d05d4a41a532389f6c4688d17dc11a223
 }

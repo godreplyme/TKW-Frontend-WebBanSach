@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/danh mục.css">
     <link rel="icon" href="images/pngwing.com.ico">
     <script src="js/jquery-3.7.0.min.js"></script>
-    <script src="js/nhà.js"></script>
 </head>
 <body>
     <!-- quảng cáo -->
@@ -94,13 +93,13 @@
         <div class="main-container">
             <div class="category">
                 <ul class="category-list">
-                    <li class="top-category">
+                    <li class="top-category" onclick="sachBanChay()">
                         <a href="#">Sách Bán Chạy<i class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <li class="top-category">
+                    <li class="top-category" onclick="sachMoiPhatHanh()">
                         <a href="#">Sách Mới Phát Hành<i class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <li class="top-category">
+                    <li class="top-category" onclick="sachSapPhatHanh()">
                         <a href="#">Sách Sắp Phát Hành<i class="fa-solid fa-angle-right"></i></a>
                     </li>
                     <li class="top-category" onclick="sachGiaoKhoa()">
@@ -108,41 +107,35 @@
                     </li>
                     <li class="bottom-category" onclick="sachGiaoKhoaCap1()"><a href="#">Cấp I</a></li>
                     <li class="bottom-category" onclick="sachGiaoKhoaCap2()"><a href="#">Cấp II</a></li>
-                    <li class="bottom-category"><a href="#">Cấp III</a></li>
-                    <li class="bottom-category"><a href="#">Đại học</a></li>
-                    <li class="top-category">
+                    <li class="bottom-category" onclick="sachGiaoKhoaCap3()"><a href="#">Cấp III</a></li>
+                    <li class="bottom-category" onclick="sachGiaoKhoaDaiHoc()"><a href="#">Đại học</a></li>
+                    <li class="top-category" onclick="sachVanHocTrongNuoc()">
                         <a href="#">Sách Văn Học Trong Nước<i class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <li class="bottom-category"><a href="#">Phê Bình Văn Học</a></li>
-                    <li class="bottom-category"><a href="#">Phóng Sự - Ký Sự</a></li>
-                    <li class="bottom-category"><a href="#">Sách Về Nhân Vật Văn Học</a></li>
-                    <li class="bottom-category"><a href="#">Thơ Ca</a></li>
-                    <li class="bottom-category"><a href="#">Tiểu Thuyết Lãng Mạn</a></li>
-                    <li class="bottom-category"><a href="#">Tiểu Thuyết Lịch Sử</a></li>
-                    <li class="bottom-category"><a href="#">Truyện - Thơ Ca Dân Gian</a></li>
-                    <li class="bottom-category"><a href="#">Truyện Dài</a></li>
-                    <li class="bottom-category"><a href="#">Truyện Giả Tưởng - Thần Bí</a></li>
-                    <li class="bottom-category"><a href="#">Truyện Kiếm Hiệp</a></li>
-                    <li class="bottom-category"><a href="#">Truyện Ngắn - Tản Văn</a></li>
-                    <li class="bottom-category"><a href="#">Truyện Thiếu Nhi</a></li>
-                    <li class="bottom-category"><a href="#">Truyện Trinh Thám, Vụ Án</a></li>
-                    <li class="bottom-category"><a href="#">Tự Truyện - Hồi Ký</a></li>
-                    <li class="top-category">
+                    <li class="bottom-category" onclick="sachPheBinhVanHoc()"><a href="#">Phê Bình Văn Học</a></li>
+                    <li class="bottom-category" onclick="sachPhongSuKySu()"><a href="#">Phóng Sự - Ký Sự</a></li>
+                    <li class="bottom-category" onclick="sachThoCa()"><a href="#">Thơ Ca</a></li>
+                    <li class="bottom-category" onclick="sachTieuThuyetLangMan()"><a href="#">Tiểu Thuyết Lãng Mạn</a></li>
+                    <li class="bottom-category" onclick="sachTruyenDai()"><a href="#">Truyện Dài</a></li>
+                    <li class="bottom-category" onclick="sachTruyenGiaTuongThanBi()"><a href="#">Truyện Giả Tưởng - Thần Bí</a></li>
+                    <li class="bottom-category" onclick="sachTruyenKiemHiep()"><a href="#">Truyện Kiếm Hiệp</a></li>
+                    <li class="bottom-category" onclick="sachTruyenNganTanVan()"><a href="#">Truyện Ngắn - Tản Văn</a></li>
+                    <li class="bottom-category" onclick="sachTruyenThieuNhi()"><a href="#">Truyện Thiếu Nhi</a></li>
+                    <li class="bottom-category" onclick="sachTruyenTrinhThamVuAn()"><a href="#">Truyện Trinh Thám, Vụ Án</a></li>
+                    <li class="bottom-category" onclick="sachTuTruyenHoiKy()"><a href="#">Tự Truyện - Hồi Ký</a></li>
+                    <li class="top-category" onclick="sachVanHocNuocNgoai()">
                         <a href="#">Sách Văn Học Nước Ngoài<i class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <li class="top-category">
-                        <a href="#">Sách Thiếu Nhi<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="top-category">
+                    <li class="top-category" onclick="sachTinHocNgoaiNgu()">
                         <a href="#">Sách Tin Học - Ngoại Ngữ<i class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <li class="top-category">
+                    <li class="top-category" onclick="sachChuyenNganh()">
                         <a href="#">Sách Chuyên Ngành<i class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <li class="top-category">
+                    <li class="top-category" onclick="sachTruyenTranhManga()">
                         <a href="#">Truyện Tranh - Manga<i class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <li class="top-category">
+                    <li class="top-category" onclick="sachTapChiVanPhongPham()">
                         <a href="#">Tạp Chí - Văn Phòng Phẩm<i class="fa-solid fa-angle-right"></i></a>
                     </li>
                 </ul>
@@ -297,4 +290,5 @@ Fahasa.com nhận đặt hàng trực tuyến và giao hàng tận nơi. KHÔNG 
         </div>
    </footer>
    <script src="js/fetch.js"></script>
+   <script src="js/nhà.js"></script>
 </body>

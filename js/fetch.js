@@ -153,7 +153,6 @@ function sachGiaoKhoaDoDung(event){
 // -----Sản phẩm trang chủ-----
 
 
-
 function sachGiaoKhoa(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -170,6 +169,7 @@ function sachGiaoKhoa(){
                         <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
                         <li><span class="offer">-${d.offer}%</span></li>
                     </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                 </div>
                 `)}
                 if(d.type1=="sachgk"&&d.rawprice==""){
@@ -178,6 +178,7 @@ function sachGiaoKhoa(){
                         <img src="${d.image}">
                         <h2 class="name" title=${d.name}>${d.name}</h2>
                         <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                     </div>
                     `)}
             }
@@ -199,6 +200,7 @@ function sachGiaoKhoaCap1(){
                         <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
                         <li><span class="offer">-${d.offer}%</span></li>
                     </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                 </div>
                 `)}
                 if(d.type1=="sachgk"&&d.rawprice==""&&d.type2=="cap1"){
@@ -207,6 +209,7 @@ function sachGiaoKhoaCap1(){
                         <img src="${d.image}">
                         <h2 class="name" title=${d.name}>${d.name}</h2>
                         <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                     </div>
                     `)}
             }
@@ -228,6 +231,7 @@ function sachGiaoKhoaCap2(){
                         <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
                         <li><span class="offer">-${d.offer}%</span></li>
                     </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                 </div>
                 `)}
                 if(d.type1=="sachgk"&&d.rawprice==""&&d.type2=="cap2"){
@@ -236,6 +240,7 @@ function sachGiaoKhoaCap2(){
                         <img src="${d.image}">
                         <h2 class="name" title=${d.name}>${d.name}</h2>
                         <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                     </div>
                     `)}
             }
@@ -247,7 +252,7 @@ function sachGiaoKhoaCap3(){
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
             for(let d of data)
             {
-                if(d.type1=="sachgk"&&d.rawprice!=""&&d.type2=="cap2"){
+                if(d.type1=="sachgk"&&d.rawprice!=""&&d.type2=="cap3"){
                 productContainer.insertAdjacentHTML("beforeend",`
                 <div class="product">
                     <img src="${d.image}">
@@ -257,14 +262,667 @@ function sachGiaoKhoaCap3(){
                         <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
                         <li><span class="offer">-${d.offer}%</span></li>
                     </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                 </div>
                 `)}
-                if(d.type1=="sachgk"&&d.rawprice==""&&d.type2=="cap2"){
+                if(d.type1=="sachgk"&&d.rawprice==""&&d.type2=="cap3"){
                     productContainer.insertAdjacentHTML("beforeend",`
                     <div class="product">
                         <img src="${d.image}">
                         <h2 class="name" title=${d.name}>${d.name}</h2>
                         <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachGiaoKhoaDaiHoc(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachgk"&&d.rawprice!=""&&d.type2=="daihoc"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachgk"&&d.rawprice==""&&d.type2=="daihoc"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachBanChay(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="best"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="best"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachMoiPhatHanh(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachmoiphathanh"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachmoiphathanh"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachSapPhatHanh(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachsapphathanh"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachsapphathanh"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachVanHocTrongNuoc(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachPheBinhVanHoc(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="sachphebinhvanhoc"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="sachphebinhvanhoc"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachPhongSuKySu(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="phongsu-kysu"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="phongsu-kysu"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachThoCa(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="thoca"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="thoca"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTieuThuyetLangMan(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="tieuthuyetlangman"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="tieuthuyetlangman"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTruyenDai(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="truyendai"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="truyendai"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTruyenGiaTuongThanBi(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="truyengiatuong-thanbi"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="truyengiatuong-thanbi"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTruyenKiemHiep(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="truyenkiemhiep"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="truyenkiemhiep"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTruyenNganTanVan(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="truyenngan-tanvan"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="truyenngan-tanvan"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTruyenThieuNhi(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="truyenthieunhi"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="truyenthieunhi"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTruyenTrinhThamVuAn(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="truyentrinhtham-vuan"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="truyentrinhtham-vuan"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTuTruyenHoiKy(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice!=""&&d.type2=="tutruyen-hoiky"){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhoctrongnuoc"&&d.rawprice==""&&d.type2=="tutruyen-hoiky"){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachVanHocNuocNgoai(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachvanhocnuocngoai"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachvanhocnuocngoai"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTinHocNgoaiNgu(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachtinhoc-ngoaingu"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachtinhoc-ngoaingu"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachChuyenNganh(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="sachchuyennganh"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="sachchuyennganh"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTruyenTranhManga(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="truyentranh-manga"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="truyentranh-manga"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+    })
+}
+function sachTapChiVanPhongPham(){
+    let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="tapchi-vanphongpham"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="tapchi-vanphongpham"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                     </div>
                     `)}
             }

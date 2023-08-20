@@ -1,3 +1,51 @@
+var giohang=[]
+var cartData = localStorage.getItem("cart");
+if (cartData !== null) {
+  giohang = JSON.parse(cartData); // Nếu có, gán dữ liệu từ localStorage cho giohang
+}
+function addLocalStorage(){
+    const cartBtn=document.querySelectorAll(".cart-btn")
+    cartBtn.forEach(function(button,index){
+        button.addEventListener("click",function(event){
+            var btnItem=event.target 
+            // console.log(btnItem)
+            var product=btnItem.parentElement
+            // console.log(product)
+            var productImg=product.querySelector(".product img").src
+            var productName=product.querySelector(".product-name").innerText
+            var productPrice=product.querySelector(".price").innerText
+            var soluong=1
+            var check=0
+
+            for(let j=0;j<giohang.length;j++)
+            {
+                if(giohang[j]["ten"]==productName)
+                {   
+                    giohang[j]["soluong"]+=soluong
+                    check=1
+                    break
+                }
+            }
+            if(check==0)
+            {
+                var sp={
+                    "hinh":productImg,
+                    "ten":productName,
+                    "gia":productPrice,
+                    "soluong":soluong
+                }
+                giohang.push(sp) 
+            }
+            alert("Đã thêm sản phẩm vào giỏ hàng!!!")
+            localStorage.setItem("cart",JSON.stringify(giohang))
+            var cart=JSON.parse(localStorage.getItem("cart"))
+            if (cart!=null)
+            {
+                document.getElementById("soluong").innerHTML=cart.length
+            }
+        })
+    })
+}
 //-----best-selling-----
 let productContainerBest=document.querySelector(".bestselling-row2")
 fetch("js/storage.json").then(res=>res.json()).then(data=>{
@@ -59,8 +107,11 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
         <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
     </div>
         `)}   
-    } 
+    }  
+    addLocalStorage()   
 })
+
+
 function sachGiaoKhoaGT(event){
 
     productContainerSGK.innerHTML = '';
@@ -89,8 +140,11 @@ function sachGiaoKhoaGT(event){
                 </div>
                     `)}
             }
-    })
-}
+            addLocalStorage()
+    }) 
+    
+} 
+
 function sachGiaoKhoaTapVo(event){
     productContainerSGK.innerHTML = '';
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
@@ -118,6 +172,7 @@ function sachGiaoKhoaTapVo(event){
                 </div>
                     `)}
             }
+            addLocalStorage()
     })
 }
 
@@ -148,6 +203,7 @@ function sachGiaoKhoaDoDung(event){
                 </div>
                     `)}
             }
+            addLocalStorage()
     })
 }
 // -----Sản phẩm trang chủ-----
@@ -170,6 +226,7 @@ function sachGiaoKhoa(){
                         <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
                         <li><span class="offer">-${d.offer}%</span></li>
                     </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                 </div>
                 `)}
                 if(d.type1=="sachgk"&&d.rawprice==""){
@@ -178,9 +235,12 @@ function sachGiaoKhoa(){
                         <img src="${d.image}">
                         <h2 class="name" title=${d.name}>${d.name}</h2>
                         <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                     </div>
+                    
                     `)}
             }
+            const cartBtn=document.querySelectorAll(".cart-btn")
     })
 }
 function sachGiaoKhoaCap1(){
@@ -199,6 +259,7 @@ function sachGiaoKhoaCap1(){
                         <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
                         <li><span class="offer">-${d.offer}%</span></li>
                     </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                 </div>
                 `)}
                 if(d.type1=="sachgk"&&d.rawprice==""&&d.type2=="cap1"){
@@ -207,9 +268,11 @@ function sachGiaoKhoaCap1(){
                         <img src="${d.image}">
                         <h2 class="name" title=${d.name}>${d.name}</h2>
                         <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                     </div>
                     `)}
             }
+            const cartBtn=document.querySelectorAll(".cart-btn")
     })
 }
 function sachGiaoKhoaCap2(){
@@ -228,6 +291,7 @@ function sachGiaoKhoaCap2(){
                         <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
                         <li><span class="offer">-${d.offer}%</span></li>
                     </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                 </div>
                 `)}
                 if(d.type1=="sachgk"&&d.rawprice==""&&d.type2=="cap2"){
@@ -236,9 +300,11 @@ function sachGiaoKhoaCap2(){
                         <img src="${d.image}">
                         <h2 class="name" title=${d.name}>${d.name}</h2>
                         <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                     </div>
                     `)}
             }
+            const cartBtn=document.querySelectorAll(".cart-btn")
     })
 }
 function sachGiaoKhoaCap3(){
@@ -247,7 +313,7 @@ function sachGiaoKhoaCap3(){
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
             for(let d of data)
             {
-                if(d.type1=="sachgk"&&d.rawprice!=""&&d.type2=="cap2"){
+                if(d.type1=="sachgk"&&d.rawprice!=""&&d.type2=="cap3"){
                 productContainer.insertAdjacentHTML("beforeend",`
                 <div class="product">
                     <img src="${d.image}">
@@ -257,16 +323,34 @@ function sachGiaoKhoaCap3(){
                         <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
                         <li><span class="offer">-${d.offer}%</span></li>
                     </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                 </div>
                 `)}
-                if(d.type1=="sachgk"&&d.rawprice==""&&d.type2=="cap2"){
+                if(d.type1=="sachgk"&&d.rawprice==""&&d.type2=="cap3"){
                     productContainer.insertAdjacentHTML("beforeend",`
                     <div class="product">
                         <img src="${d.image}">
                         <h2 class="name" title=${d.name}>${d.name}</h2>
                         <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
                     </div>
                     `)}
             }
+            const cartBtn=document.querySelectorAll(".cart-btn")
     })
+}
+function loadSoLuong()
+{
+    cart=JSON.parse(localStorage.getItem("cart"))
+    if (cart!=null)
+    {
+        document.getElementById("soluong").innerHTML=cart.length
+    }
+}
+function loadCart(){
+    cart=JSON.parse(localStorage.getItem("cart"))
+    if (cart!=null)
+    {
+        document.getElementById("soluongcart").innerHTML=cart.length
+    }
 }

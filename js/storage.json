@@ -53,8 +53,42 @@
         "rawprice":"79.000",
         "offer":"35"
     }, 
-
-
+    {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-1.jpg",
+        "name":"Lạc Giữa Tần Số Không Người Nghe",
+        "price":"68.800",
+        "rawprice":"86.000",
+        "offer":"20"
+    }, 
+    {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-1.jpg",
+        "name":"Lạc Giữa Tần Số Không Người Nghe",
+        "price":"68.800",
+        "rawprice":"86.000",
+        "offer":"20"
+    }, 
+    {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-1.jpg",
+        "name":"Lạc Giữa Tần Số Không Người Nghe",
+        "price":"68.800",
+        "rawprice":"86.000",
+        "offer":"20"
+    }, 
+    {
+        "type1":"best",
+        "type2":"",
+        "image":"images/bestselling/best-1.jpg",
+        "name":"Lạc Giữa Tần Số Không Người Nghe",
+        "price":"68.800",
+        "rawprice":"86.000",
+        "offer":"20"
+    }, 
 
 
     {
@@ -842,6 +876,98 @@
     },
 
 
+<<<<<<< HEAD
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachgk",
+        "type2":"daihoc",
+        "image":"images/sachgk/sachgkdaihoc.jpg",
+        "name":"Kể Chuyện Cuộc Đời Các Thiên Tài: Albert Einstein",
+        "price":"46.750",
+        "rawprice":"55.000 ",
+        "offer":"15"
+    },
+=======
 
 
     {
@@ -985,6 +1111,7 @@
 
 
 
+>>>>>>> 0e8e241d05d4a41a532389f6c4688d17dc11a223
 
 
     {
@@ -1256,7 +1383,1670 @@
         "price":"16.650",
         "rawprice":"18.500",
         "offer":"10"
-    }
+    },
+
+
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachmoiphathanh",
+        "type2":"",
+        "image":"images/sachmoiphathanh.jpg",
+        "name":"AI 2041 - 10 Viễn Cảnh Cho Tương Lai",
+        "price":"253.000",
+        "rawprice":"298.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachsapphathanh",
+        "type2":"",
+        "image":"images/sachsapphathanh.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"sachphebinhvanhoc",
+        "image":"images/sachvanhoctrongnuoc/sachphebinhvanhoc.jpg",
+        "name":"Chọn Cô Đơn Giữa Biển Người Vô Tận",
+        "price":"67.000",
+        "rawprice":"79.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"phongsu-kysu",
+        "image":"images/sachvanhoctrongnuoc/phongsu-kysu.jpg",
+        "name":"Thương Những Miền Qua",
+        "price":"89.000",
+        "rawprice":"105.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"thoca",
+        "image":"images/sachvanhoctrongnuoc/thoca.jpg",
+        "name":"Đọc Thơ Bạn - Thú Thưởng Ngoạn Văn Chương",
+        "price":"119.000",
+        "rawprice":"140.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tieuthuyetlangman",
+        "image":"images/sachvanhoctrongnuoc/tieuthuyetlangman.jpg",
+        "name":"Biên Niên Clifton #4 - Phía Sau Một Mong Ước",
+        "price":"169.000",
+        "rawprice":"199.000 ",
+        "offer":"15"
+    },
+
+    
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyendai",
+        "image":"images/sachvanhoctrongnuoc/truyendai.jpg",
+        "name":"Gió Nam Thầm Thì",
+        "price":"202.000",
+        "rawprice":"238.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyengiatuong-thanbi",
+        "image":"images/sachvanhoctrongnuoc/truyengiatuong-thanbi.jpg",
+        "name":"Dấu Vết Của Quỷ",
+        "price":"126.500",
+        "rawprice":"149.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenkiemhiep",
+        "image":"images/sachvanhoctrongnuoc/truyenkiemhiep.jpg",
+        "name":"Nam Quốc Anh Hùng Truyện",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenngan-tanvan",
+        "image":"images/sachvanhoctrongnuoc/truyenngan-tanvan.jpg",
+        "name":"Văn Học Trong Nhà Trường - Truyện Ngắn Lỗ Tấn",
+        "price":"51.000",
+        "rawprice":"60.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyenthieunhi",
+        "image":"images/sachvanhoctrongnuoc/truyenthieunhi.jpg",
+        "name":"Ký Ức Của Con Vện",
+        "price":"59.500",
+        "rawprice":"70.000 ",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000 ",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"truyentrinhtham-vuan",
+        "image":"images/sachvanhoctrongnuoc/truyentrinhtham-vuan.jpg",
+        "name":"Âm Mưu Công Khai",
+        "price":"142.500",
+        "rawprice":"168.000",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhoctrongnuoc",
+        "type2":"tutruyen-hoiky",
+        "image":"images/sachvanhoctrongnuoc/tutruyen-hoiky.jpg",
+        "name":"Chuyện Đời Tôi",
+        "price":"305,000",
+        "rawprice":"359,000",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachvanhocnuocngoai",
+        "type2":"",
+        "image":"images/sachvanhocnuocngoai.jpg",
+        "name":"Will",
+        "price":"272,000",
+        "rawprice":"320,000",
+        "offer":"15"
+    },
     
 
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+    {
+        "type1":"sachtinhoc-ngoaingu",
+        "type2":"",
+        "image":"images/sachtinhoc-ngoaingu.jpg",
+        "name":"Giáo Trình C++ Và Lập Trình Hướng Đối Tượng",
+        "price":"165,500",
+        "rawprice":"195,000",
+        "offer":"15"
+    },
+
+
+    {
+        "type1":"sachchuyennganh",
+        "type2":"",
+        "image":"images/laptrinhjava.jpg",
+        "name":"Lập Trình Java",
+        "price":"29.000",
+        "rawprice":"38.000",
+        "offer":"25"
+    },
+    {
+        "type1":"sachchuyennganh",
+        "type2":"",
+        "image":"images/laptrinhjava.jpg",
+        "name":"Lập Trình Java",
+        "price":"29.000",
+        "rawprice":"38.000",
+        "offer":"25"
+    },
+    {
+        "type1":"sachchuyennganh",
+        "type2":"",
+        "image":"images/laptrinhjava.jpg",
+        "name":"Lập Trình Java",
+        "price":"29.000",
+        "rawprice":"38.000",
+        "offer":"25"
+    },
+    {
+        "type1":"sachchuyennganh",
+        "type2":"",
+        "image":"images/laptrinhjava.jpg",
+        "name":"Lập Trình Java",
+        "price":"29.000",
+        "rawprice":"38.000",
+        "offer":"25"
+    },
+    {
+        "type1":"sachchuyennganh",
+        "type2":"",
+        "image":"images/laptrinhjava.jpg",
+        "name":"Lập Trình Java",
+        "price":"29.000",
+        "rawprice":"38.000",
+        "offer":"25"
+    },
+    {
+        "type1":"sachchuyennganh",
+        "type2":"",
+        "image":"images/laptrinhjava.jpg",
+        "name":"Lập Trình Java",
+        "price":"29.000",
+        "rawprice":"38.000",
+        "offer":"25"
+    },
+    {
+        "type1":"sachchuyennganh",
+        "type2":"",
+        "image":"images/laptrinhjava.jpg",
+        "name":"Lập Trình Java",
+        "price":"29.000",
+        "rawprice":"38.000",
+        "offer":"25"
+    },
+    {
+        "type1":"sachchuyennganh",
+        "type2":"",
+        "image":"images/laptrinhjava.jpg",
+        "name":"Lập Trình Java",
+        "price":"29.000",
+        "rawprice":"38.000",
+        "offer":"25"
+    },
+    {
+        "type1":"sachchuyennganh",
+        "type2":"",
+        "image":"images/laptrinhjava.jpg",
+        "name":"Lập Trình Java",
+        "price":"29.000",
+        "rawprice":"38.000",
+        "offer":"25"
+    },
+
+
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+    {
+        "type1":"truyentranh-manga",
+        "type2":"",
+        "image":"images/truyentranh-manga.jpg",
+        "name":"Spy X Family",
+        "price":"25.000",
+        "rawprice":"",
+        "offer":""
+    },
+
+
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    },
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    },
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    },
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    },
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    },
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    },
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    },
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    },
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    },
+    {
+        "type1":"tapchi-vanphongpham",
+        "type2":"",
+        "image":"images/tapchi-vanphongpham.jpg",
+        "name":"Tập Học Sinh - Lớp Học Mật Ngữ ",
+        "price":"11.700",
+        "rawprice":"13.000",
+        "offer":"10"
+    }
 ]

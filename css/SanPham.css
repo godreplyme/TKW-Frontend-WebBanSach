@@ -217,6 +217,10 @@ div.quantity-tab > button {
     height: 3.5rem;
     border: 1.5px solid lightsalmon;
     border-radius: 0.2rem;
+    transition:  background .5s;
+}
+.add-tab:hover {
+    background: blanchedalmond;
 }
 .bought-tab {
     color: white;
@@ -228,6 +232,10 @@ div.quantity-tab > button {
     height: 3.5rem;
     border: 1.5px solid red;
     border-radius: 0.2rem;
+    transition: transform .5s;
+}
+.bought-tab:hover {
+    transform: scale(1.1);
 }
                                 /* VOUCHER */
 .voucher-tab {
@@ -285,6 +293,12 @@ div.pro-hint1 > div > button:last-child {
     height: 1.5rem;
     border-radius: 0.2rem;
     animation: doimau1 1.5s ease infinite;
+}
+.products-hint img {
+    transition: transform .5s;
+}
+.products-hint img:hover {
+    transform: scale(0.8);
 }
                                     /* COMMENT */
 .pro-comment {

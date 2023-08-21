@@ -160,3 +160,13 @@ scrollToTopButton.addEventListener("click", () => {
     }
   }, 15);
 });
+
+
+var mobilecate=document.querySelector(".mobile-category")
+function mobileCateOn(){
+    mobilecate.style.left=0;
+}
+function mobileCateOff(){
+     mobilecate.style.left=-100+"%";
+
+}

@@ -15,6 +15,13 @@
 <body onload="loadSoLuong()">
 <!-- pc -->
     <!-- quảng cáo -->
+    <div class="mobile-category">
+        <div class="mobile-category-header">
+            <div class="mobile-category-header-back" onclick="mobileCateOff()">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+        </div>
+    </div>
     <div class="banner">
         <a>
             <img src="images/banner.jpg" alt="ad-banner">
@@ -103,7 +110,7 @@
             <a href="nhà.html"><img src="images/logo.png"></a>
         </div>
         <div class="mobile-search-bar">
-            <div class="mobile-cate mobile-ico"><i class="fa-solid fa-bars"></i></div>
+            <div class="mobile-cate mobile-ico" onclick="mobileCateOn()"><i class="fa-solid fa-bars"></i></div>
             <form class="mobile-search">
                 <input type="mobile-search-main" placeholder="Bạn cần tìm gì...?"/>
             </form>
@@ -111,6 +118,7 @@
             <div class="mobile-user mobile-ico"><i class="fa-solid fa-user"></i></div>
         </div>
     </div>
+    
     <!-- phần chính -->
     <div class="body">
         <div>

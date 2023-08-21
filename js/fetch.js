@@ -103,7 +103,7 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
     { 
         if(d.type1=="best"){
         productContainerBest.insertAdjacentHTML("beforeend",`
-            <div class="bestselling-product">
+            <div class="bestselling-product">   
                 <div class="bestselling-product-offer">${d.offer}%</div>
                 <div class="bestselling-product-image">
                     <img src="${d.image}">
@@ -137,7 +137,7 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
 
 // ----------sản phẩm trang chủ----------//
 
-    //hàm load sẵn sau khi trang chủ tải xong//
+    //hàm load sẵn phần sách gk-gt sau khi trang chủ tải xong//
 let productContainerSGK=document.querySelector(".products-container-sgk")
 fetch("js/storage.json").then(res=>res.json()).then(data=>{
     for(let d of data)
@@ -166,11 +166,7 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
     }  
     addLocalStorage()   
 })
-
-
-    //hàm khi nhấn vào mục sách giáo khoa//
-function sachGiaoKhoaGT(event){
-
+function sachGiaoKhoaGT(){
     productContainerSGK.innerHTML = '';
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
             for(let d of data)
@@ -201,9 +197,7 @@ function sachGiaoKhoaGT(event){
     }) 
     
 } 
-
-    //hàm khi bấm vào mục tập vở//
-function sachGiaoKhoaTapVo(event){
+function sachGiaoKhoaTapVo(){
     productContainerSGK.innerHTML = '';
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
             for(let d of data)
@@ -233,9 +227,7 @@ function sachGiaoKhoaTapVo(event){
             addLocalStorage()
     })
 }
-
-    //hàm khi bấm vào mục đồ dùng học tập//
-function sachGiaoKhoaDoDung(event){
+function sachGiaoKhoaDoDung(){
     productContainerSGK.innerHTML = '';
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
             for(let d of data)
@@ -265,13 +257,251 @@ function sachGiaoKhoaDoDung(event){
             addLocalStorage()
     })
 }
+
+    //hàm load sẵn phần sách trong nước
+let productContainerNuocNgoai=document.querySelector(".products-container-nuocngoai")
+fetch("js/storage.json").then(res=>res.json()).then(data=>{
+    for(let d of data)
+    { 
+        if(d.type1=="sachvanhocnuocngoai"&&d.rawprice!=""){
+        productContainerNuocNgoai.insertAdjacentHTML("beforeend",`
+        <div class="product">
+        <img src="${d.image}">
+        <h2 class="product-name">${d.name}</h2>
+        <div class="price">${d.price}&#8363;</div>  
+        <ul class="prices">
+            <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+            <li><span class="offer">${d.offer}%</span></li>
+        </ul>   
+        <ul class="rate">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>   
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            (0)
+        </ul>
+        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+    </div>
+        `)}   
+    }  
+    addLocalStorage()   
+})
+let productContainerManga=document.querySelector(".products-container-manga")
+fetch("js/storage.json").then(res=>res.json()).then(data=>{
+    for(let d of data)
+    { 
+        if(d.type1=="truyentranh-manga"){
+        productContainerManga.insertAdjacentHTML("beforeend",`
+        <div class="product">
+        <img src="${d.image}">
+        <h2 class="product-name">${d.name}</h2>
+        <div class="price">${d.price}&#8363;</div>     
+        <ul class="rate">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>   
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            (0)
+        </ul>
+        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+    </div>
+        `)}   
+    }  
+    addLocalStorage()   
+})
+let productContainerTapChi=document.querySelector(".products-container-tapchi")
+fetch("js/storage.json").then(res=>res.json()).then(data=>{
+    for(let d of data)
+    { 
+        if(d.type1=="tapchi-vanphongpham"){
+        productContainerTapChi.insertAdjacentHTML("beforeend",`
+        <div class="product">
+        <img src="${d.image}">
+        <h2 class="product-name">${d.name}</h2>
+        <div class="price">${d.price}&#8363;</div> 
+        <ul class="prices">
+            <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+            <li><span class="offer">${d.offer}%</span></li>
+        </ul>     
+        <ul class="rate">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>   
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            (0)
+        </ul>
+        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+    </div>
+        `)}   
+    }  
+    addLocalStorage()   
+})
+    //hàm load sẵn phần sách sách trong nước sau khi trang chủ tải xong//
+let productContainerTrongNuoc=document.querySelector(".products-container-trongnuoc")
+fetch("js/storage.json").then(res=>res.json()).then(data=>{
+    for(let d of data)
+    { 
+        if(d.type2=="vanhoc"&&d.rawprice!=""){
+        productContainerTrongNuoc.insertAdjacentHTML("beforeend",`
+        <div class="product">
+        <img src="${d.image}">
+        <h2 class="product-name">${d.name}</h2>
+        <div class="price">${d.price}&#8363;</div>  
+        <ul class="prices">
+            <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+            <li><span class="offer">${d.offer}%</span></li>
+        </ul>   
+        <ul class="rate">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>   
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            (0)
+        </ul>
+        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+    </div>
+        `)}   
+    }  
+    addLocalStorage()   
+})
+function SachTrongNuocVanHoc(){
+    productContainerTrongNuoc.innerHTML = '';
+    fetch("js/storage.json").then(res=>res.json()).then(data=>{
+        for(let d of data)
+        { 
+            if(d.type2=="vanhoc"&&d.rawprice!=""){
+            productContainerTrongNuoc.insertAdjacentHTML("beforeend",`
+            <div class="product">
+            <img src="${d.image}">
+            <h2 class="product-name">${d.name}</h2>
+            <div class="price">${d.price}&#8363;</div>  
+            <ul class="prices">
+                <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                <li><span class="offer">${d.offer}%</span></li>
+            </ul>   
+            <ul class="rate">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>   
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                (0)
+            </ul>
+            <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+        </div>
+            `)}   
+        }  
+        addLocalStorage()   
+    })
+}
+function SachTrongNuocKinhTe(){
+    productContainerTrongNuoc.innerHTML = '';
+    fetch("js/storage.json").then(res=>res.json()).then(data=>{
+        for(let d of data)
+        { 
+            if(d.type1=="sachvanhocnuocngoai"&&d.rawprice!=""){
+            productContainerTrongNuoc.insertAdjacentHTML("beforeend",`
+            <div class="product">
+            <img src="${d.image}">
+            <h2 class="product-name">${d.name}</h2>
+            <div class="price">${d.price}&#8363;</div>  
+            <ul class="prices">
+                <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                <li><span class="offer">${d.offer}%</span></li>
+            </ul>   
+            <ul class="rate">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>   
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                (0)
+            </ul>
+            <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+        </div>
+            `)}   
+        }  
+        addLocalStorage()   
+    })
+}
+function SachTrongNuocKyNang(){
+    productContainerTrongNuoc.innerHTML = '';
+    fetch("js/storage.json").then(res=>res.json()).then(data=>{
+        for(let d of data)
+        { 
+            if(d.type1=="sachchuyennganh"&&d.rawprice!=""){
+            productContainerTrongNuoc.insertAdjacentHTML("beforeend",`
+            <div class="product">
+            <img src="${d.image}">
+            <h2 class="product-name">${d.name}</h2>
+            <div class="price">${d.price}&#8363;</div>  
+            <ul class="prices">
+                <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                <li><span class="offer">${d.offer}%</span></li>
+            </ul>   
+            <ul class="rate">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>   
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                (0)
+            </ul>
+            <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+        </div>
+            `)}   
+        }  
+        addLocalStorage()   
+    })
+}
 // ----------Sản phẩm trang chủ----------//
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
 //----------Trang danh mục sản phẩm----------//
+let productContainer=document.querySelector(".product-content")
+    productContainer.innerHTML = '';
+        fetch("js/storage.json").then(res=>res.json()).then(data=>{
+            for(let d of data)
+            {
+                if(d.type1=="best"&&d.rawprice!=""){
+                productContainer.insertAdjacentHTML("beforeend",`
+                <div class="product">
+                    <img src="${d.image}">
+                    <h2 class="name" title=${d.name}>${d.name}</h2>
+                    <div class="price">${d.price}&#8363;</div>
+                    <ul class="prices">
+                        <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                        <li><span class="offer">-${d.offer}%</span></li>
+                    </ul>
+                    <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                `)}
+                if(d.type1=="best"&&d.rawprice==""){
+                    productContainer.insertAdjacentHTML("beforeend",`
+                    <div class="product">
+                        <img src="${d.image}">
+                        <h2 class="name" title=${d.name}>${d.name}</h2>
+                        <div class="price">${d.price}&#8363;</div>
+                        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                    `)}
+            }
+            addLocalStorageCate()
+    })
 
     //mục sách giáo khoa - giáo trình//
+<<<<<<< HEAD
 
+=======
+>>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
 function sachGiaoKhoa(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -341,7 +571,7 @@ function sachGiaoKhoaCap1(){
 }
 
 
-    //mục sách giáo khoa - giáo trình (cấp1)//
+    //mục sách giáo khoa - giáo trình (cấp2)//
 function sachGiaoKhoaCap2(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -374,6 +604,7 @@ function sachGiaoKhoaCap2(){
             addLocalStorageCate()
     })
 }
+    //mục sách giáo khoa - giáo trình (cấp 3)//
 function sachGiaoKhoaCap3(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -406,6 +637,10 @@ function sachGiaoKhoaCap3(){
             addLocalStorageCate()
     })
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
 function sachGiaoKhoaDaiHoc(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -435,6 +670,7 @@ function sachGiaoKhoaDaiHoc(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachBanChay(){
@@ -466,6 +702,7 @@ function sachBanChay(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachMoiPhatHanh(){
@@ -497,6 +734,7 @@ function sachMoiPhatHanh(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachSapPhatHanh(){
@@ -528,6 +766,7 @@ function sachSapPhatHanh(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachVanHocTrongNuoc(){
@@ -559,6 +798,7 @@ function sachVanHocTrongNuoc(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachPheBinhVanHoc(){
@@ -590,6 +830,7 @@ function sachPheBinhVanHoc(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachPhongSuKySu(){
@@ -621,6 +862,7 @@ function sachPhongSuKySu(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachThoCa(){
@@ -652,6 +894,7 @@ function sachThoCa(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTieuThuyetLangMan(){
@@ -683,6 +926,7 @@ function sachTieuThuyetLangMan(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenDai(){
@@ -714,6 +958,7 @@ function sachTruyenDai(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenGiaTuongThanBi(){
@@ -745,6 +990,7 @@ function sachTruyenGiaTuongThanBi(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenKiemHiep(){
@@ -776,6 +1022,7 @@ function sachTruyenKiemHiep(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenNganTanVan(){
@@ -807,6 +1054,7 @@ function sachTruyenNganTanVan(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenThieuNhi(){
@@ -838,6 +1086,7 @@ function sachTruyenThieuNhi(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenTrinhThamVuAn(){
@@ -869,6 +1118,7 @@ function sachTruyenTrinhThamVuAn(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTuTruyenHoiKy(){
@@ -900,6 +1150,7 @@ function sachTuTruyenHoiKy(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachVanHocNuocNgoai(){
@@ -931,6 +1182,7 @@ function sachVanHocNuocNgoai(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTinHocNgoaiNgu(){
@@ -962,6 +1214,7 @@ function sachTinHocNgoaiNgu(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachChuyenNganh(){
@@ -993,6 +1246,7 @@ function sachChuyenNganh(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenTranhManga(){
@@ -1024,6 +1278,7 @@ function sachTruyenTranhManga(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTapChiVanPhongPham(){
@@ -1055,8 +1310,12 @@ function sachTapChiVanPhongPham(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
+
+
+//load số lượng trên logo giỏ hàng
 function loadSoLuong()
 {
     cart=JSON.parse(localStorage.getItem("cart"))
@@ -1071,5 +1330,12 @@ function loadCart(){
     if (cart!=null)
     {
         document.getElementById("soluongcart").innerHTML=cart.length
+    }
+}
+function loadCart1(){
+    cart=JSON.parse(localStorage.getItem("cart"))
+    if (cart!=null)
+    {
+        document.getElementById("soluongcart1").innerHTML=cart.length
     }
 }

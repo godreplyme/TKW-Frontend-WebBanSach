@@ -97,16 +97,7 @@ let runslider=function(){
 }
 runslider()
 // jQuery
-$(document).ready(function(){
-    $(".modal-overlay").click(function(){
-        $(".main-modal").hide();
-    });
-    
-    $(".close-modal").click(function(){
-        $(".main-modal").hide();
-    });
-    
-})
+
 
 // window.onload=function(){
 //     let category=document.querySelectorAll(".category>li")
@@ -115,9 +106,9 @@ $(document).ready(function(){
 //             let d = document.getElementsByClassName("sub-category")
 //         }
 // }   
-var categoryItems = document.querySelectorAll('.category > li');
 
-// Duyệt qua từng li con và thêm sự kiện hover
+// Duyệt qua từng li con và thêm sự kiện hover menu
+var categoryItems = document.querySelectorAll('.category > li');
 categoryItems.forEach(item => {
   var subCategory = item.querySelector('.sub-category');
 
@@ -132,6 +123,16 @@ categoryItems.forEach(item => {
 
   });
 });
+
+
+//Duyệt qua từng li con và thêm sự kiện click menu(mobile)
+var mobileCateItem=document.querySelectorAll('.mobile-subcate > li')
+mobileCateItem.forEach(item=>{
+  var mobileCate=item.querySelector('.mobile-category-item')
+  item.addEventListener('click',function(){
+    mobileCate.style.display="block";
+  })
+})
 //scrollbutton
 const scrollToTopButton = document.getElementById("scrollToTopButton");
 
@@ -142,21 +143,23 @@ window.addEventListener("scroll", function(){
     scrollToTopButton.style.display = "none";
   }
 });
-document.addEventListener("DOMContentLoaded", () => {
-    setTimeout(() => {
-      scrollToTopButton.style.opacity = 1;
-      scrollToTopButton.style.transform = "scale(1)";
-    }, 500);
-  });
-scrollToTopButton.addEventListener("click", () => {
-  const scrollDuration = 1000;
-  const scrollStep = -window.scrollY / (scrollDuration / 15);
-
-  const scrollInterval = setInterval(() => {
-    if (window.scrollY !== 0) {
-      window.scrollBy(0, scrollStep);
-    } else {
-      clearInterval(scrollInterval);
+function goToTop(){
+    var topTimer=setInterval(function(){
+      document.documentElement.scrollTop-=20
+      if(document.documentElement.scrollTop<=0){
+        clearInterval(topTimer);
+      }
+      },1)
     }
-  }, 15);
-});
+
+// bật tắt mobile danh mục 
+var mobilecate=document.querySelector(".mobile-category")
+function mobileCateOn(){
+    mobilecate.style.left=0;
+    document.querySelector(".big-body").style.display="none"
+}
+function mobileCateOff(){
+     mobilecate.style.left=-100+"%";
+     document.querySelector(".big-body").style.display="block"
+
+}

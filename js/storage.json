@@ -82,15 +82,6 @@
         "rawprice":"86.000",
         "offer":"20"
     }, 
-    {
-        "type1":"best",
-        "type2":"",
-        "image":"images/bestselling/best-1.jpg",
-        "name":"Lạc Giữa Tần Số Không Người Nghe",
-        "price":"68.800",
-        "rawprice":"86.000",
-        "offer":"20"
-    }, 
 
 
     {
@@ -1009,7 +1000,7 @@
     {
         "type1":"sachtrongnuoc",
         "type2":"vanhoc",
-        "image":"images/sachtrongnuoc/sachvanhoc-5.jpg",
+        "image":"images/sachtrongnuoc/sachvanhoc-7.jpg",
         "name":"Bước Chậm Lại Giữa Thế Gian Vội Vã",
         "price":"55.250",
         "rawprice":"85.000",
@@ -1099,7 +1090,7 @@
     {
         "type1":"sachtrongnuoc",
         "type2":"vanhoc",
-        "image":"images/sachtrongnuoc/sachvanhoc-14.jpg",
+        "image":"images/sachtrongnuoc/sachvanhoc-10.jpg",
         "name":"Cho Tôi Xin Một Vé Đi Tuổi Thơ",
         "price":"64.000",
         "rawprice":"80.000",
@@ -1107,6 +1098,10 @@
     },
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
     {
         "type1":"dodung",
         "type2":"tapvo",

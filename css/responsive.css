@@ -25,7 +25,7 @@
         width: 40%;
     }
     .product{
-        width:33%;
+        width:30%;
     }
     footer{
         display:block;  
@@ -39,6 +39,7 @@
     .mobile-header{
         display:block;
     }
+<<<<<<< HEAD
     /* SẢN PHẨM */
     .products-tab {
         display: block;
@@ -50,6 +51,10 @@
     .name-tab {
         width: 80%;
         margin: auto;
+=======
+    .mobile-category{
+        display:block;
+>>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
     }
 } 
 @media only screen and (max-width:46.1875em){
@@ -88,11 +93,8 @@
         padding:5px;
     }
     .product{
-        width:45%;
+        width: 40%;
         padding:10px;
-    }
-    .product-btn{
-        display:none;
     }
     footer{
         display:block;  
@@ -135,5 +137,8 @@
         font-size: 15px;
         display: inline-block;
         padding:auto;
+    }
+    .mobile-category{
+        display:block;
     }
 }

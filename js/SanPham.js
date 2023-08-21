@@ -3,7 +3,6 @@ function Cothebanquantam() {
         let h ="";
         for(let p of data)
             h += `
-                
                     <div>
                         <div><img title="Ứng dụng Web" src="${p.image}" alt="Books" /></div>
                             <div  class="word-font">
@@ -17,14 +16,23 @@ function Cothebanquantam() {
                                 <span style="text-decoration-line: line-through; padding-right: 0.5rem;">${p.cost}₫</span>
                             </div>
                             <div>    
-                                <button>${p.discount}% giảm</button>
+                                <button>-${p.discount}%</button>
                             </div>
                         </div>
                     </div>
-                
             `;
-            let e = document.getElementById("products");
+            let e = document.querySelector(".products-hint");
             if(e !== null)
             e.innerHTML += h;
     })
+}
+//Xem ảnh
+function init() {
+    let im = document.getElementById("mainImg")
+    console.log("Hello");
+    let images = document.querySelectorAll(".pic-detail img");
+    for (let i = 0; i < images.length; i++)
+        images[i].addEventListener("mouseenter", function() {
+            im.src = this.src;
+        })
 }

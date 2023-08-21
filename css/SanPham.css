@@ -1,4 +1,9 @@
                                         /* HEADER */
+@media only screen and (max-width:46.1875em){
+    body{
+        width: 230% !important;
+    }
+}
 body{
     background-color:rgb(230,230,230);
     width:80%; 
@@ -307,9 +312,12 @@ div.pro-hint1 > div > button:last-child {
     width: 20%;
 }
 .products-hint img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 200px;
+    object-fit: fill;
+    padding: 0 10px;
 }
+
                                     /* COMMENT */
 .pro-comment {
     background: white;
@@ -464,4 +472,41 @@ footer{
 }
 .ship img{
     width:100%;
+}
+/* mobile header */
+.mobile-header{
+    background-color: green ;
+    display:none;
+}
+.mobile-logo{
+    width:30%;
+    margin:auto;
+}
+.mobile-logo a{
+    padding:5px;
+}
+.mobile-logo img{
+    width:100%;
+    height:100%;
+}
+.mobile-search-bar{
+    display:flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.mobile-ico{
+    width:5%;
+    height:5%;
+    text-align: center;
+}
+.mobile-ico i{
+    font-size: 30px;
+    display:inline-block;
+}
+.mobile-search{
+    width:80%
+}
+.mobile-search input{
+    width:100%;
+    height:100%;
 }

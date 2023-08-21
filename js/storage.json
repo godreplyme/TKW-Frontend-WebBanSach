@@ -1,4 +1,4 @@
-[
+[   
     {
         "type1":"best",
         "type2":"",
@@ -6,8 +6,9 @@
         "name":"Lạc Giữa Tần Số Không Người Nghe",
         "price":"68.800",
         "rawprice":"86.000",
-        "offer":"20"
-    },   
+        "offer":"20",
+        "product": "SanPham1.html"
+    },
     {
         "type1":"best",
         "type2":"",
@@ -15,8 +16,9 @@
         "name":"Cảm Ơn Bạn Đã Không Từ Bỏ Chính Mình",
         "price":"71.200",
         "rawprice":"89.000",
-        "offer":"20"
-    }, 
+        "offer":"20",
+        "product": "SanPham2.html"
+    },
     {
         "type1":"best",
         "type2":"",
@@ -24,7 +26,7 @@
         "name":"Cây Cam Ngọt Của Tôi",
         "price":"70.200",
         "rawprice":"108.000",
-        "offer":"35"
+        "offer":"35"        
     }, 
     {
         "type1":"best",
@@ -33,7 +35,7 @@
         "name":"Khéo Ăn Nói Sẽ Có Được Thiên Hạ",
         "price":"78.000",
         "rawprice":"130.000",
-        "offer":"40"
+        "offer":"40"        
     }, 
     {
         "type1":"best",
@@ -1105,15 +1107,6 @@
     },
 
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
->>>>>>> 62daebe4ddffe6da71474d84f018bd2df5781dfd
     {
         "type1":"dodung",
         "type2":"tapvo",

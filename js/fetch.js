@@ -120,7 +120,9 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
                         <li><i class="fa-solid fa-star"></i></li>
                         (0)
                     </ul>
-                    <button class="xem-hang-btn">Xem hàng</button>
+                    <button class="xem-hang-btn">
+                            <a href="${d.product}" style="color:white">Xem hàng</a>
+                        </button>
                 </div>
             </div>
         `)}
@@ -266,18 +268,10 @@ function sachGiaoKhoaDoDung(event){
 // ----------Sản phẩm trang chủ----------//
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 62daebe4ddffe6da71474d84f018bd2df5781dfd
-
 //----------Trang danh mục sản phẩm----------//
 
     //mục sách giáo khoa - giáo trình//
-<<<<<<< HEAD
 
-=======
->>>>>>> 62daebe4ddffe6da71474d84f018bd2df5781dfd
 function sachGiaoKhoa(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -412,10 +406,6 @@ function sachGiaoKhoaCap3(){
             addLocalStorageCate()
     })
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 62daebe4ddffe6da71474d84f018bd2df5781dfd
 function sachGiaoKhoaDaiHoc(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';

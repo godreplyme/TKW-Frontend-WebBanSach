@@ -39,6 +39,18 @@
     .mobile-header{
         display:block;
     }
+    /* SẢN PHẨM */
+    .products-tab {
+        display: block;
+    }
+    .picture {
+        width: 80%;
+        margin: auto;
+    }
+    .name-tab {
+        width: 80%;
+        margin: auto;
+    }
 } 
 @media only screen and (max-width:46.1875em){
     .banner, .header,.contacts{

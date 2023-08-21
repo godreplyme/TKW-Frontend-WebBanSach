@@ -6,293 +6,376 @@
     <title>Danh mục sản phẩm</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/danh mục.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="images/pngwing.com.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="js/jquery-3.7.0.min.js"></script>
 
 </head>
 <body onload="loadSoLuong()">
-    <!-- quảng cáo -->
-    <div class="banner">
-        <a>
-            <img src="images/banner.jpg" alt=   "ad-banner">
-        </a>
-    </div>
-    <!-- thanh tìm kiếm  -->
-    <section class="header">
-        <div class="container">
-            <a class="left-header" href="nhà.html">
-                <img src="images/logo.png" alt="mybook-logo">
-            </a>
-            <form class="mid-header">
-                <input type="search" placeholder="Bạn cần tìm gì...?"/>
-                <button>
-                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </button>
-            </form>
-            <ul class="right-header">
-                <li class="item-menu" href="#">
-                    <a href="#">
-                        Thông báo<br>
-                        <i class="fa-solid fa-bell"></i>                        
-                    </a>
+    <div class="mobile-category">
+        <div class="mobile-category-header">
+            <div class="mobile-category-header-back" onclick="mobileCateOff()">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="mobile-category-header-text">
+                    DANH MỤC SẢN PHẨM
+            </div>
+        </div>
+        <div class="mobile-category-body">
+            <ul class="mobile-subcate">
+                <li>
+                    <a>Sách Bán Chạy</a>
                 </li>
-                <li class="item-menu" href="#">
-                    <a href="giỏ hàng.html">
-                        Giỏ hàng&#40;<span id="soluong">0</span>&#41;<br>     
-                        <i class="fa-solid fa-cart-shopping fa-beat"></i>                    
-                    </a>
+                <li>
+                    <a>Sách Mới Phát Hành</a>
                 </li>
-                <li class="item-menu" href="#">
-                    <a href="#">
-                        Tài khoản<br>  
-                        <i class="fa-solid fa-user"></i>                          
-                    </a>
+                <li>
+                    <a>Sách Sắp Phát Hành</a>
                 </li>
-                <li class="item-menu" href="#">
-                    <a href="#">
-                        Ngôn ngữ<br>     
-                        <i class="fa-solid fa-globe"></i>                       
-                    </a>
+                <li>
+                    <a>Sách Giáo Khoa - Giáo Trình</a>
+                    <ul class="mobile-category-item">
+                        <li><a href="#">Cấp I</a></li>
+                        <li><a href="#">Cấp II</a></li>
+                        <li><a href="#">Cấp III</a></li>
+                        <li><a href="#">Sách tham khảo cấp I</a></li>
+                        <li><a href="#">Sách tham khảo cấp II</a></li>
+                        <li><a href="#">Sách tham khảo cấp III</a></li>
+                        <li><a href="#">Đại học</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Sách Văn Học Trong Nước</a>
+                    <ul class="mobile-category-item">
+                        <li><a href="#">Phê Bình Văn Học</a></li>
+                        <li><a href="#">Phóng Sự - Ký Sự</a></li>
+                        <li><a href="#">Sách Về Nhân Vật Văn Học</a></li>
+                        <li><a href="#">Thơ Ca</a></li>
+                        <li><a href="#">Tiểu Thuyết Lãng Mạn</a></li>
+                        <li><a href="#">Tiểu Thuyết Lịch Sử</a></li>
+                        <li><a href="#">Truyện - Thơ Ca Dân Gian</a></li>
+                        <li><a href="#">Truyện Dài</a></li>
+                        <li><a href="#">Truyện Giả Tưởng - Thần Bí</a></li>
+                        <li><a href="#">Truyện Kiếm Hiệp</a></li>
+                        <li><a href="#">Truyện Ngắn - Tản Văn</a></li>
+                        <li><a href="#">Truyện Thiếu Nhi</a></li>
+                        <li><a href="#">Truyện Trinh Thám, Vụ Án</a></li>
+                        <li><a href="#">Tự Truyện - Hồi Ký</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Sách Văn Học Nước Ngoài</a>
+                </li>
+                <li>
+                    <a>Sách Tin Học - Ngoại Ngữ</a>
+                </li>
+                <li>
+                    <a>Sách Chuyên Ngành</a>
+                </li>
+                <li>
+                    <a>Truyện Tranh - Manga</a>
+                </li>
+                <li>
+                    <a href="#">Tạp Chí Văn Phòng Phẩm</a>
                 </li>
             </ul>
         </div>
-    <!-- thanh danh mục -->
-    </section>
-    <div class="contacts">
-        <div class="contact">
-            <h1 class="left-contact">
-                <ul>
-                    <li>
-                        <i class="fa-solid fa-bars-staggered"></i>
-                    </li>
-                    <li style="width:100%; text-align: center;">
-                        DANH MỤC SÁCH
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </li>
-                </ul>
-            </h1>
-            <div class="right-contact">
-                <ul>
-                    <li>
-                        <i class="fa-solid fa-phone"></i>
-                        Hotline: 
-                        <strong>000000000 &nbsp;</strong>
-                    </li>
-                    <li>
+    </div>
+    <div class="big-body">
+    <!-- quảng cáo -->
+        <div class="banner">
+            <a>
+                <img src="images/banner.jpg" alt=   "ad-banner">
+            </a>
+        </div>
+        <!-- thanh tìm kiếm  -->
+        <section class="header">
+            <div class="container">
+                <a class="left-header" href="nhà.html">
+                    <img src="images/logo.png" alt="mybook-logo">
+                </a>
+                <form class="mid-header">
+                    <input type="search" placeholder="Bạn cần tìm gì...?"/>
+                    <button>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </button>
+                </form>
+                <ul class="right-header">
+                    <li class="item-menu" href="#">
                         <a href="#">
-                            &nbsp; <i class="fa-solid fa-comment"></i>
-                            Hỗ trợ trực tuyến
+                            Thông báo<br>
+                            <i class="fa-solid fa-bell"></i>                        
+                        </a>
+                    </li>
+                    <li class="item-menu" href="#">
+                        <a href="giỏ hàng.html">    
+                            Giỏ hàng&#40;<span id="soluong">0</span>&#41;<br>     
+                            <i class="fa-solid fa-cart-shopping fa-beat"></i>                    
+                        </a>
+                    </li>
+                    <li class="item-menu" href="#">
+                        <a href="#">
+                            Tài khoản<br>  
+                            <i class="fa-solid fa-user"></i>                          
+                        </a>
+                    </li>
+                    <li class="item-menu" href="#">
+                        <a href="#">
+                            Ngôn ngữ<br>     
+                            <i class="fa-solid fa-globe"></i>                       
                         </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
-    <div class="main">
-        <div class="main-container">
-            <div class="category">
-                <ul class="category-list">
-                    <li class="top-category" onclick="sachBanChay()">
-                        <a href="#">Sách Bán Chạy<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="top-category" onclick="sachMoiPhatHanh()">
-                        <a href="#">Sách Mới Phát Hành<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="top-category" onclick="sachSapPhatHanh()">
-                        <a href="#">Sách Sắp Phát Hành<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="top-category" onclick="sachGiaoKhoa()">
-                        <a href="#">Sách Giáo Khoa - Giáo Trình<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="bottom-category" onclick="sachGiaoKhoaCap1()"><a href="#">Cấp I</a></li>
-                    <li class="bottom-category" onclick="sachGiaoKhoaCap2()"><a href="#">Cấp II</a></li>
-                    <li class="bottom-category" onclick="sachGiaoKhoaCap3()"><a href="#">Cấp III</a></li>
-                    <li class="bottom-category" onclick="sachGiaoKhoaDaiHoc()"><a href="#">Đại học</a></li>
-                    <li class="top-category" onclick="sachVanHocTrongNuoc()">
-                    <li class="bottom-category"><a href="#">Đại học</a></li>
-                    <li class="top-category">
-                        <a href="#">Sách Văn Học Trong Nước<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="bottom-category" onclick="sachPheBinhVanHoc()"><a href="#">Phê Bình Văn Học</a></li>
-                    <li class="bottom-category" onclick="sachPhongSuKySu()"><a href="#">Phóng Sự - Ký Sự</a></li>
-                    <li class="bottom-category" onclick="sachThoCa()"><a href="#">Thơ Ca</a></li>
-                    <li class="bottom-category" onclick="sachTieuThuyetLangMan()"><a href="#">Tiểu Thuyết Lãng Mạn</a></li>
-                    <li class="bottom-category" onclick="sachTruyenDai()"><a href="#">Truyện Dài</a></li>
-                    <li class="bottom-category" onclick="sachTruyenGiaTuongThanBi()"><a href="#">Truyện Giả Tưởng - Thần Bí</a></li>
-                    <li class="bottom-category" onclick="sachTruyenKiemHiep()"><a href="#">Truyện Kiếm Hiệp</a></li>
-                    <li class="bottom-category" onclick="sachTruyenNganTanVan()"><a href="#">Truyện Ngắn - Tản Văn</a></li>
-                    <li class="bottom-category" onclick="sachTruyenThieuNhi()"><a href="#">Truyện Thiếu Nhi</a></li>
-                    <li class="bottom-category" onclick="sachTruyenTrinhThamVuAn()"><a href="#">Truyện Trinh Thám, Vụ Án</a></li>
-                    <li class="bottom-category" onclick="sachTuTruyenHoiKy()"><a href="#">Tự Truyện - Hồi Ký</a></li>
-                    <li class="top-category" onclick="sachVanHocNuocNgoai()">
-                        <a href="#">Sách Văn Học Nước Ngoài<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="top-category" onclick="sachTinHocNgoaiNgu()">
-                        <a href="#">Sách Tin Học - Ngoại Ngữ<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="top-category" onclick="sachChuyenNganh()">
-                        <a href="#">Sách Chuyên Ngành<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="top-category" onclick="sachTruyenTranhManga()">
-                        <a href="#">Truyện Tranh - Manga<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                    <li class="top-category" onclick="sachTapChiVanPhongPham()">
-                        <a href="#">Tạp Chí - Văn Phòng Phẩm<i class="fa-solid fa-angle-right"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="product-container">
-                <div class="product-content">
-                    
+        <!-- thanh danh mục -->
+        </section>
+        <div class="contacts">
+            <div class="contact">
+                <h1 class="left-contact">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </li>
+                        <li style="width:100%; text-align: center;">
+                            DANH MỤC SÁCH
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                    </ul>
+                </h1>
+                <div class="right-contact">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            Hotline: 
+                            <strong>000000000 &nbsp;</strong>
+                        </li>
+                        <li>
+                            <a href="#">
+                                &nbsp; <i class="fa-solid fa-comment"></i>
+                                Hỗ trợ trực tuyến
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <div class="left-footer">
-            <img src="images/logo.png" style="display:block;">
-            Lầu 5, 387-389 Hai Bà Trưng Quận 3 TP HCM Công Ty Cổ Phần Phát Hành Sách TP HCM - FAHASA60 - 62 Lê Lợi, Quận 1, TP. HCM, Việt Nam
-Fahasa.com nhận đặt hàng trực tuyến và giao hàng tận nơi. KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng cũng như tất cả Hệ Thống Fahasa trên toàn quốc.
-            <img src="images/logo-bo-cong-thuong-da-thong-bao.png">
-            <ul class="social-media">
-                <li>
-                    <a href="https://facebook.com" target="_blank">
-                        <img src="images/Facebook-on.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="images/Insta-on.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.tumblr.com/" target="_blank">
-                        <img src="images/tumblr-on.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com" target="_blank">
-                        <img src="images/twitter-on.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                        <img src="images/Youtube-on.png">
-                    </a>
-                </li>
-            </ul>
-            <ul class="operating-systems">
-                <li>
-                    <a href="#">
-                        <img src="images/android.png">
-                    </a>
-                </li>
-                <div></div>
-                <li>
-                    <a href="#">
-                        <img src="images/appstore.png">
-                    </a>
-                </li>
-            </ul>
+        <div class="mobile-header">
+            <div class="mobile-logo">
+                <a href="nhà.html"><img src="images/logo.png"></a>
+            </div>
+            <div class="mobile-search-bar">
+                <div class="mobile-cate mobile-ico" onclick="mobileCateOn()"><i class="fa-solid fa-bars"></i></div>
+                <form class="mobile-search">
+                    <input type="mobile-search-main" placeholder="Bạn cần tìm gì...?"/>
+                </form>
+                <div class="mobile-cart mobile-ico"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="mobile-user mobile-ico"><i class="fa-solid fa-user"></i></div>
+            </div>
         </div>
-        <div class="right-footer">
-            <ul class="functions">
-                <li>
-                    <ul class="sub-function">
-                        <h1>
-                            DỊCH VỤ
-                        </h1>
-                        <li>
-                            <a href="#">
-                                Điều khoản sử dụng
-                            </a>
+        <div class="main">
+            <div class="main-container">
+                <div class="category">
+                    <ul class="category-list">
+                        <li class="top-category" onclick="sachBanChay()">
+                            <a href="#">Sách Bán Chạy<i class="fa-solid fa-angle-right"></i></a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Chính sách bảo mật
-                            </a>
+                        <li class="top-category" onclick="sachMoiPhatHanh()">
+                            <a href="#">Sách Mới Phát Hành<i class="fa-solid fa-angle-right"></i></a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Giới thiệu MyBook
-                            </a>
+                        <li class="top-category" onclick="sachSapPhatHanh()">
+                            <a href="#">Sách Sắp Phát Hành<i class="fa-solid fa-angle-right"></i></a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Hệ thống trung tâm nhà sách
-                            </a>
+                        <li class="top-category" onclick="sachGiaoKhoa()">
+                            <a href="#">Sách Giáo Khoa - Giáo Trình<i class="fa-solid fa-angle-right"></i></a>
                         </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="sub-function">
-                        <h1>HỖ TRỢ</h1>
-                        <li>
-                            <a href="#">
-                                Chính sách đổi trả hoàn tiền
-                            </a>
+                        <li class="bottom-category" onclick="sachGiaoKhoaCap1()"><a href="#">Cấp I</a></li>
+                        <li class="bottom-category" onclick="sachGiaoKhoaCap2()"><a href="#">Cấp II</a></li>
+                        <li class="bottom-category" onclick="sachGiaoKhoaCap3()"><a href="#">Cấp III</a></li>
+                        <li class="bottom-category" onclick="sachGiaoKhoaDaiHoc()"><a href="#">Đại học</a></li>
+                        <li class="top-category" onclick="sachVanHocTrongNuoc()">
+                            <a href="#">Sách Văn Học Trong Nước<i class="fa-solid fa-angle-right"></i></a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Chính sách vận chuyển
-                            </a>
+                        <li class="bottom-category" onclick="sachPheBinhVanHoc()"><a href="#">Phê Bình Văn Học</a></li>
+                        <li class="bottom-category" onclick="sachPhongSuKySu()"><a href="#">Phóng Sự - Ký Sự</a></li>
+                        <li class="bottom-category" onclick="sachThoCa()"><a href="#">Thơ Ca</a></li>
+                        <li class="bottom-category" onclick="sachTieuThuyetLangMan()"><a href="#">Tiểu Thuyết Lãng Mạn</a></li>
+                        <li class="bottom-category" onclick="sachTruyenDai()"><a href="#">Truyện Dài</a></li>
+                        <li class="bottom-category" onclick="sachTruyenGiaTuongThanBi()"><a href="#">Truyện Giả Tưởng - Thần Bí</a></li>
+                        <li class="bottom-category" onclick="sachTruyenKiemHiep()"><a href="#">Truyện Kiếm Hiệp</a></li>
+                        <li class="bottom-category" onclick="sachTruyenNganTanVan()"><a href="#">Truyện Ngắn - Tản Văn</a></li>
+                        <li class="bottom-category" onclick="sachTruyenThieuNhi()"><a href="#">Truyện Thiếu Nhi</a></li>
+                        <li class="bottom-category" onclick="sachTruyenTrinhThamVuAn()"><a href="#">Truyện Trinh Thám, Vụ Án</a></li>
+                        <li class="bottom-category" onclick="sachTuTruyenHoiKy()"><a href="#">Tự Truyện - Hồi Ký</a></li>
+                        <li class="top-category" onclick="sachVanHocNuocNgoai()">
+                            <a href="#">Sách Văn Học Nước Ngoài<i class="fa-solid fa-angle-right"></i></a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Chính sách bảo hành- bồi hoàn                               
-                            </a>
+                        <li class="top-category" onclick="sachTinHocNgoaiNgu()">
+                            <a href="#">Sách Tin Học - Ngoại Ngữ<i class="fa-solid fa-angle-right"></i></a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Phương thức thanh toán
-                            </a>
+                        <li class="top-category" onclick="sachChuyenNganh()">
+                            <a href="#">Sách Chuyên Ngành<i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li class="top-category" onclick="sachTruyenTranhManga()">
+                            <a href="#">Truyện Tranh - Manga<i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li class="top-category" onclick="sachTapChiVanPhongPham()">
+                            <a href="#">Tạp Chí - Văn Phòng Phẩm<i class="fa-solid fa-angle-right"></i></a>
                         </li>
                     </ul>
-                </li>
-                <li>
-                    <ul class="sub-function">
-                        <h1>TÀI KHOẢN CỦA TÔI</h1>
-                        <li>
-                            <a href="#">
-                                Đăng nhập/Tạo mới tài khoản
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Thay đổi địa chỉ
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Chi tiết tài khoản
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Lịch sử mua hàng
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="payment">
-                <li><a href="#"><img src="images/vnpost.png" alt="vnpost"></a></li>
-                <li><a href="#"><img src="images/ahamove_logo.png" alt="ahamove"></a></li>
-                <li><a href="#"><img src="images/icon_giao_hang_nhanh.png" alt="giaohangnhanh"></a></li>
-                <li><a href="#"><img src="images/icon_snappy.png" alt="snappy"></a></li>
-            </ul>
-            <ul class="ship">
-                <li><a href="#"><img src="images/vnpay_logo.png" alt="vnpay"></a></li>
-                <li><a href="#"><img src="images/ZaloPay-logo-130x83.png" alt="zalopay"></a></li>
-                <li><a href="#"><img src="images/momopay.png" alt="momopay"></a></li>
-                <li><a href="#"><img src="images/shopeepay_logo.png" alt="shopeepay"></a></li>
-                <li><a href="#"><img src="images/logo_moca_120.jpg" alt="moca"></a></li>
-            </ul>
+                </div>
+                <div class="product-container">
+                    <div class="product-content">
+                        
+                    </div>
+                </div>
+            </div>
         </div>
-   </footer>
+        <footer>
+            <div class="left-footer">
+                <img src="images/logo.png" style="display:block;">
+                Lầu 5, 387-389 Hai Bà Trưng Quận 3 TP HCM Công Ty Cổ Phần Phát Hành Sách TP HCM - FAHASA60 - 62 Lê Lợi, Quận 1, TP. HCM, Việt Nam
+    Fahasa.com nhận đặt hàng trực tuyến và giao hàng tận nơi. KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng cũng như tất cả Hệ Thống Fahasa trên toàn quốc.
+                <img src="images/logo-bo-cong-thuong-da-thong-bao.png">
+                <ul class="social-media">
+                    <li>
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="images/Facebook-on.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="images/Insta-on.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tumblr.com/" target="_blank">
+                            <img src="images/tumblr-on.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank">
+                            <img src="images/twitter-on.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="images/Youtube-on.png">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="operating-systems">
+                    <li>
+                        <a href="#">
+                            <img src="images/android.png">
+                        </a>
+                    </li>
+                    <div></div>
+                    <li>
+                        <a href="#">
+                            <img src="images/appstore.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-footer">
+                <ul class="functions">
+                    <li>
+                        <ul class="sub-function">
+                            <h1>
+                                DỊCH VỤ
+                            </h1>
+                            <li>
+                                <a href="#">
+                                    Điều khoản sử dụng
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Chính sách bảo mật
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Giới thiệu MyBook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Hệ thống trung tâm nhà sách
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="sub-function">
+                            <h1>HỖ TRỢ</h1>
+                            <li>
+                                <a href="#">
+                                    Chính sách đổi trả hoàn tiền
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Chính sách vận chuyển
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Chính sách bảo hành- bồi hoàn                               
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Phương thức thanh toán
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="sub-function">
+                            <h1>TÀI KHOẢN CỦA TÔI</h1>
+                            <li>
+                                <a href="#">
+                                    Đăng nhập/Tạo mới tài khoản
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Thay đổi địa chỉ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Chi tiết tài khoản
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Lịch sử mua hàng
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="payment">
+                    <li><a href="#"><img src="images/vnpost.png" alt="vnpost"></a></li>
+                    <li><a href="#"><img src="images/ahamove_logo.png" alt="ahamove"></a></li>
+                    <li><a href="#"><img src="images/icon_giao_hang_nhanh.png" alt="giaohangnhanh"></a></li>
+                    <li><a href="#"><img src="images/icon_snappy.png" alt="snappy"></a></li>
+                </ul>
+                <ul class="ship">
+                    <li><a href="#"><img src="images/vnpay_logo.png" alt="vnpay"></a></li>
+                    <li><a href="#"><img src="images/ZaloPay-logo-130x83.png" alt="zalopay"></a></li>
+                    <li><a href="#"><img src="images/momopay.png" alt="momopay"></a></li>
+                    <li><a href="#"><img src="images/shopeepay_logo.png" alt="shopeepay"></a></li>
+                    <li><a href="#"><img src="images/logo_moca_120.jpg" alt="moca"></a></li>
+                </ul>
+            </div>
+    </footer>
+</div>
    <!-- <script src="js/nhà.js"></script>            -->
    <script src="js/fetch.js"></script>
    <script src="js/nhà.js"></script>

@@ -167,7 +167,7 @@
             </div>
         </div>
     </div>
-<!-- ipad -->
+<!-- mobile-header -->
     <div class="mobile-header">
         <div class="mobile-logo">
             <a href="nhà.html"><img src="images/logo.png"></a>
@@ -443,13 +443,13 @@
             </div>
             <div class="header-box">
                 <ul class="main-cate">
-                    <li onclick="sachGiaoKhoaGT(event)">
+                    <li onclick="sachGiaoKhoaGT()">
                         <a class="main-cate-active">SÁCH GIÁO KHOA</a>
                     </li>
-                    <li onclick="sachGiaoKhoaTapVo(event)">
+                    <li onclick="sachGiaoKhoaTapVo()">
                         <a>TẬP VỞ</a>
                     </li>
-                    <li onclick="sachGiaoKhoaDoDung(event)">
+                    <li onclick="sachGiaoKhoaDoDung()">
                         <a>ĐỒ DÙNG HỌC TẬP</a>
                     </li>
                 </ul>
@@ -485,174 +485,25 @@
             <div class="header-box">
                 <ul class="main-cate">
                     <li>
-                        <a href="#" class="main-cate-active">VĂN HỌC</a>
+                        <a class="main-cate-active" onclick="SachTrongNuocVanHoc()">VĂN HỌC</a>
                     </li>
                     <li>
-                        <a href="#">KINH TẾ</a>
+                        <a onclick="SachTrongNuocKinhTe()">KINH TẾ</a>
                     </li>
                     <li>
-                        <a href="#">KỸ NĂNG</a>
+                        <a onclick="SachTrongNuocKyNang()">KỸ NĂNG</a>
                     </li>
                 </ul>
             </div>
             <div class="main-box">
                 <div class="main-products-container">
                     <div lass="main-products-container-content">
-                        <div class="products-container product-container-trongnuoc">
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>   
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>    
-                            <div class="product">
-                                <img src="images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>      
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>     
+                        <div class="products-container products-container-trongnuoc">
+
                         </div>
                         <div class="product-btn">
                             <i class="fas fa-chevron-left" onclick="leftProduct(event)"></i>
-                            <i class="fas fa-chevron-right" onclick="rightProduct(event)""></i>
+                            <i class="fas fa-chevron-right" onclick="rightProduct(event)"></i>
                         </div>
                     </div>
                 </div>
@@ -675,170 +526,21 @@
             <div class="header-box">
                 <ul class="main-cate">
                     <li>
-                        <a href="#" class="main-cate-active">FICTION</a>
+                        <a class="main-cate-active" onclick="SachTrongNuocVanHoc()">FICTION</a>
                     </li>
                     <li>
-                        <a href="#">BUSSINESS</a>
+                        <a onclick="SachTrongNuocKinhTe()">BUSSINESS</a>
                     </li>
                     <li>
-                        <a href="#">SELF - HELP</a>
+                        <a onclick="SachTrongNuocKyNang()">SELF - HELP</a>
                     </li>
                 </ul>
             </div>
             <div class="main-box">
                 <div class="main-products-container">
                     <div lass="main-products-container-content">
-                        <div class="products-container">
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>   
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>    
-                            <div class="product">
-                                <img src="images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>      
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>     
+                        <div class="products-container products-container-nuocngoai">
+
                         </div>
                         <div class="product-btn">
                             <i class="fas fa-chevron-left" onclick="leftProduct(event)"></i>
@@ -872,157 +574,8 @@
             <div class="main-box">
                 <div class="main-products-container">
                     <div lass="main-products-container-content">
-                        <div class="products-container">
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>   
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>    
-                            <div class="product">
-                                <img src="images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>      
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>     
+                        <div class="products-container products-container-manga">
+                           
                         </div>
                         <div class="product-btn">
                             <i class="fas fa-chevron-left" onclick="leftProduct(event)"></i>
@@ -1049,170 +602,15 @@
             <div class="header-box">
                 <ul class="main-cate">
                     <li>
-                        <a href="#" class="main-cate-active">SÁCH GIÁO KHOA</a>
-                    </li>
-                    <li>
-                        <a href="#">TẬP VỞ</a>
-                    </li>
-                    <li>
-                        <a href="#">DỤNG CỤ HỌC TẬP</a>
+                        <a href="#" class="main-cate-active">Tạp chí</a>
                     </li>
                 </ul>
             </div>
             <div class="main-box">
                 <div class="main-products-container">
                     <div lass="main-products-container-content">
-                        <div class="products-container">
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>   
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>    
-                            <div class="product">
-                                <img src="images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/khi-khung-hoang-ap-den-5-buoc-doi-pho-voi-cang-thang-man-tinh_125182_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>      
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>
-                            <div class="product">
-                                <img src="images/mong-ke-phieu-bat-co-ruou-uong-mong-nguoi-co-don-cat-tieng-ca_125185_1.jpg">
-                                <h2 class="product-name">Sách hay nhất thế giới của NGuyễn Hôf Vũ</h2>
-                                  
-                                <div class="price">100.000&#8363;</div>
-                                <ul class="prices">
-                                    <li><span class="raw-price">200.000&#8363;</span></li>
-                                    <li><span class="offer">-50%</span></li>
-                                </ul>
-                            </div>     
+                        <div class="products-container products-container-tapchi">
+                               
                         </div>
                         <div class="product-btn">
                             <i class="fas fa-chevron-left" onclick="leftProduct(event)"></i>

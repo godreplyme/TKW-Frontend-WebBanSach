@@ -392,6 +392,7 @@ footer{
 }
 .product img{
     width:90%;
+    height:240px;
     padding: 0  5px;   
 }
 .price{
@@ -737,7 +738,7 @@ footer{
 }
 .mobile-logo img{
     width:100%;
-    height:100%;
+    height:100%;    
 }
 .mobile-search-bar{
     display:flex;
@@ -768,7 +769,6 @@ footer{
     position:absolute;
     display:none;
     width:100%;
-    height:100%;
     z-index: 20;
     background-color: #f8f8f8;
     left:-100%;

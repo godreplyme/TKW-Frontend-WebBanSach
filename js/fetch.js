@@ -103,7 +103,7 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
     { 
         if(d.type1=="best"){
         productContainerBest.insertAdjacentHTML("beforeend",`
-            <div class="bestselling-product">
+            <div class="bestselling-product">   
                 <div class="bestselling-product-offer">${d.offer}%</div>
                 <div class="bestselling-product-image">
                     <img src="${d.image}">
@@ -135,7 +135,7 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
 
 // ----------sản phẩm trang chủ----------//
 
-    //hàm load sẵn sau khi trang chủ tải xong//
+    //hàm load sẵn phần sách gk-gt sau khi trang chủ tải xong//
 let productContainerSGK=document.querySelector(".products-container-sgk")
 fetch("js/storage.json").then(res=>res.json()).then(data=>{
     for(let d of data)
@@ -260,6 +260,212 @@ function sachGiaoKhoaDoDung(event){
                     `)}
             }
             addLocalStorage()
+    })
+}
+let productContainerNuocNgoai=document.querySelector(".products-container-nuocngoai")
+fetch("js/storage.json").then(res=>res.json()).then(data=>{
+    for(let d of data)
+    { 
+        if(d.type1=="sachvanhocnuocngoai"&&d.rawprice!=""){
+        productContainerNuocNgoai.insertAdjacentHTML("beforeend",`
+        <div class="product">
+        <img src="${d.image}">
+        <h2 class="product-name">${d.name}</h2>
+        <div class="price">${d.price}&#8363;</div>  
+        <ul class="prices">
+            <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+            <li><span class="offer">${d.offer}%</span></li>
+        </ul>   
+        <ul class="rate">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>   
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            (0)
+        </ul>
+        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+    </div>
+        `)}   
+    }  
+    addLocalStorage()   
+})
+let productContainerManga=document.querySelector(".products-container-manga")
+fetch("js/storage.json").then(res=>res.json()).then(data=>{
+    for(let d of data)
+    { 
+        if(d.type1=="truyentranh-manga"){
+        productContainerManga.insertAdjacentHTML("beforeend",`
+        <div class="product">
+        <img src="${d.image}">
+        <h2 class="product-name">${d.name}</h2>
+        <div class="price">${d.price}&#8363;</div>     
+        <ul class="rate">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>   
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            (0)
+        </ul>
+        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+    </div>
+        `)}   
+    }  
+    addLocalStorage()   
+})
+let productContainerTapChi=document.querySelector(".products-container-tapchi")
+fetch("js/storage.json").then(res=>res.json()).then(data=>{
+    for(let d of data)
+    { 
+        if(d.type1=="tapchi-vanphongpham"){
+        productContainerTapChi.insertAdjacentHTML("beforeend",`
+        <div class="product">
+        <img src="${d.image}">
+        <h2 class="product-name">${d.name}</h2>
+        <div class="price">${d.price}&#8363;</div> 
+        <ul class="prices">
+            <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+            <li><span class="offer">${d.offer}%</span></li>
+        </ul>     
+        <ul class="rate">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>   
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            (0)
+        </ul>
+        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+    </div>
+        `)}   
+    }  
+    addLocalStorage()   
+})
+
+
+    //hàm load sẵn phần sách sách trong nước sau khi trang chủ tải xong//
+let productContainerTrongNuoc=document.querySelector(".products-container-trongnuoc")
+fetch("js/storage.json").then(res=>res.json()).then(data=>{
+    for(let d of data)
+    { 
+        if(d.type2=="vanhoc"&&d.rawprice!=""){
+        productContainerTrongNuoc.insertAdjacentHTML("beforeend",`
+        <div class="product">
+        <img src="${d.image}">
+        <h2 class="product-name">${d.name}</h2>
+        <div class="price">${d.price}&#8363;</div>  
+        <ul class="prices">
+            <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+            <li><span class="offer">${d.offer}%</span></li>
+        </ul>   
+        <ul class="rate">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>   
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            (0)
+        </ul>
+        <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+    </div>
+        `)}   
+    }  
+    addLocalStorage()   
+})
+
+    //hàm bấm vào mục văn học// 
+function SachTrongNuocVanHoc(){
+    productContainerTrongNuoc.innerHTML = '';
+    fetch("js/storage.json").then(res=>res.json()).then(data=>{
+        for(let d of data)
+        { 
+            if(d.type2=="vanhoc"&&d.rawprice!=""){
+            productContainerTrongNuoc.insertAdjacentHTML("beforeend",`
+            <div class="product">
+            <img src="${d.image}">
+            <h2 class="product-name">${d.name}</h2>
+            <div class="price">${d.price}&#8363;</div>  
+            <ul class="prices">
+                <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                <li><span class="offer">${d.offer}%</span></li>
+            </ul>   
+            <ul class="rate">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>   
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                (0)
+            </ul>
+            <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+        </div>
+            `)}   
+        }  
+        addLocalStorage()   
+    })
+}
+
+function SachTrongNuocKinhTe(){
+    productContainerTrongNuoc.innerHTML = '';
+    fetch("js/storage.json").then(res=>res.json()).then(data=>{
+        for(let d of data)
+        { 
+            if(d.type1=="sachvanhocnuocngoai"&&d.rawprice!=""){
+            productContainerTrongNuoc.insertAdjacentHTML("beforeend",`
+            <div class="product">
+            <img src="${d.image}">
+            <h2 class="product-name">${d.name}</h2>
+            <div class="price">${d.price}&#8363;</div>  
+            <ul class="prices">
+                <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                <li><span class="offer">${d.offer}%</span></li>
+            </ul>   
+            <ul class="rate">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>   
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                (0)
+            </ul>
+            <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+        </div>
+            `)}   
+        }  
+        addLocalStorage()   
+    })
+}
+
+        //hàm bấm vào mục kỹ năng//
+function SachTrongNuocKyNang(){
+    productContainerTrongNuoc.innerHTML = '';
+    fetch("js/storage.json").then(res=>res.json()).then(data=>{
+        for(let d of data)
+        { 
+            if(d.type1=="sachchuyennganh"&&d.rawprice!=""){
+            productContainerTrongNuoc.insertAdjacentHTML("beforeend",`
+            <div class="product">
+            <img src="${d.image}">
+            <h2 class="product-name">${d.name}</h2>
+            <div class="price">${d.price}&#8363;</div>  
+            <ul class="prices">
+                <li><span class="raw-price">${d.rawprice}&#8363;</span></li>
+                <li><span class="offer">${d.offer}%</span></li>
+            </ul>   
+            <ul class="rate">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>   
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                (0)
+            </ul>
+            <button class="cart-btn animate__animated animate__pulse">THÊM VÀO GIỎ HÀNG</button>
+        </div>
+            `)}   
+        }  
+        addLocalStorage()   
     })
 }
 // ----------Sản phẩm trang chủ----------//

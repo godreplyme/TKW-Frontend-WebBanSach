@@ -39,7 +39,6 @@
     .mobile-header{
         display:block;
     }
-<<<<<<< HEAD
     /* SẢN PHẨM */
     .products-tab {
         display: block;
@@ -51,10 +50,9 @@
     .name-tab {
         width: 80%;
         margin: auto;
-=======
+    }
     .mobile-category{
         display:block;
->>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
     }
 } 
 @media only screen and (max-width:46.1875em){

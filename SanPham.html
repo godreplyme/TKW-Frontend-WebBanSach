@@ -13,7 +13,77 @@
     
 </head>
 <body onload="Cothebanquantam(); init()">
-    <!-- quảng cáo -->
+    <div class="mobile-category">
+        <div class="mobile-category-header">
+            <div class="mobile-category-header-back" onclick="mobileCateOff()">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="mobile-category-header-text">
+                    DANH MỤC SẢN PHẨM
+            </div>
+        </div>
+        <div class="mobile-category-body">
+            <ul class="mobile-subcate">
+                <li>
+                    <a>Sách Bán Chạy</a>
+                </li>
+                <li>
+                    <a>Sách Mới Phát Hành</a>
+                </li>
+                <li>
+                    <a>Sách Sắp Phát Hành</a>
+                </li>
+                <li>
+                    <a>Sách Giáo Khoa - Giáo Trình</a>
+                    <ul class="mobile-category-item">
+                        <li><a href="#">Cấp I</a></li>
+                        <li><a href="#">Cấp II</a></li>
+                        <li><a href="#">Cấp III</a></li>
+                        <li><a href="#">Sách tham khảo cấp I</a></li>
+                        <li><a href="#">Sách tham khảo cấp II</a></li>
+                        <li><a href="#">Sách tham khảo cấp III</a></li>
+                        <li><a href="#">Đại học</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Sách Văn Học Trong Nước</a>
+                    <ul class="mobile-category-item">
+                        <li><a href="#">Phê Bình Văn Học</a></li>
+                        <li><a href="#">Phóng Sự - Ký Sự</a></li>
+                        <li><a href="#">Sách Về Nhân Vật Văn Học</a></li>
+                        <li><a href="#">Thơ Ca</a></li>
+                        <li><a href="#">Tiểu Thuyết Lãng Mạn</a></li>
+                        <li><a href="#">Tiểu Thuyết Lịch Sử</a></li>
+                        <li><a href="#">Truyện - Thơ Ca Dân Gian</a></li>
+                        <li><a href="#">Truyện Dài</a></li>
+                        <li><a href="#">Truyện Giả Tưởng - Thần Bí</a></li>
+                        <li><a href="#">Truyện Kiếm Hiệp</a></li>
+                        <li><a href="#">Truyện Ngắn - Tản Văn</a></li>
+                        <li><a href="#">Truyện Thiếu Nhi</a></li>
+                        <li><a href="#">Truyện Trinh Thám, Vụ Án</a></li>
+                        <li><a href="#">Tự Truyện - Hồi Ký</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Sách Văn Học Nước Ngoài</a>
+                </li>
+                <li>
+                    <a>Sách Tin Học - Ngoại Ngữ</a>
+                </li>
+                <li>
+                    <a>Sách Chuyên Ngành</a>
+                </li>
+                <li>
+                    <a>Truyện Tranh - Manga</a>
+                </li>
+                <li>
+                    <a href="#">Tạp Chí Văn Phòng Phẩm</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="big-body">
+        <!-- quảng cáo -->
     <div class="banner">
         <a>
             <img src="images/banner.jpg" alt="ad-banner">
@@ -93,13 +163,13 @@
         </div>
     </div>
     <div></div>
-    <!-- mobile -->
+    <!-- mobile-header -->
     <div class="mobile-header">
         <div class="mobile-logo">
             <a href="nhà.html"><img src="images/logo.png"></a>
         </div>
         <div class="mobile-search-bar">
-            <div class="mobile-cate mobile-ico"><i class="fa-solid fa-bars"></i></div>
+            <div class="mobile-cate mobile-ico" onclick="mobileCateOn()"><i class="fa-solid fa-bars"></i></div>
             <form class="mobile-search">
                 <input type="mobile-search-main" placeholder="Bạn cần tìm gì...?"/>
             </form>
@@ -539,6 +609,8 @@ Fahasa.com nhận đặt hàng trực tuyến và giao hàng tận nơi. KHÔNG 
         </ul>
     </div>
    </footer>
+    </div>
    <script src="js/SanPham.js"></script>
+   <script src="js/nhà.js"></script>
 </body>
 </html>

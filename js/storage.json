@@ -26,7 +26,8 @@
         "name":"Cây Cam Ngọt Của Tôi",
         "price":"70.200",
         "rawprice":"108.000",
-        "offer":"35"        
+        "offer":"35",
+        "product": "SanPham.html"       
     }, 
     {
         "type1":"best",
@@ -1098,10 +1099,6 @@
     },
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
     {
         "type1":"dodung",
         "type2":"tapvo",

@@ -461,10 +461,6 @@ function SachTrongNuocKyNang(){
 // ----------Sản phẩm trang chủ----------//
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
 //----------Trang danh mục sản phẩm----------//
 let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -498,10 +494,7 @@ let productContainer=document.querySelector(".product-content")
     })
 
     //mục sách giáo khoa - giáo trình//
-<<<<<<< HEAD
 
-=======
->>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
 function sachGiaoKhoa(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -637,10 +630,7 @@ function sachGiaoKhoaCap3(){
             addLocalStorageCate()
     })
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 103550688dd8f726d5c33dec741c2b1466ed2719
 function sachGiaoKhoaDaiHoc(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';

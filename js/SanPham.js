@@ -23,7 +23,7 @@ function Cothebanquantam() {
                     </div>
                 
             `;
-            let e = document.getElementById("products");
+            let e = document.querySelector(".products-hint");
             if(e !== null)
             e.innerHTML += h;
     })

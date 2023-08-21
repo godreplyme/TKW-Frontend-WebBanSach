@@ -305,10 +305,12 @@ div.pro-hint1 > div > button:last-child {
 }
 .products-hint > div {
     width: 20%;
+    height:80%;
 }
 .products-hint img {
+    object-fit: fill;
     width: 100%;
-    height: 100%;
+    height: 200px;
 }
                                     /* COMMENT */
 .pro-comment {

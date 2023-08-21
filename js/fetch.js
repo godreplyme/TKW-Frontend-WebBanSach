@@ -164,10 +164,7 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
     }  
     addLocalStorage()   
 })
-
-
-    //hàm khi nhấn vào mục sách giáo khoa//
-function sachGiaoKhoaGT(event){
+function sachGiaoKhoaGT(){
     productContainerSGK.innerHTML = '';
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
             for(let d of data)
@@ -198,9 +195,7 @@ function sachGiaoKhoaGT(event){
     }) 
     
 } 
-
-    //hàm khi bấm vào mục tập vở//
-function sachGiaoKhoaTapVo(event){
+function sachGiaoKhoaTapVo(){
     productContainerSGK.innerHTML = '';
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
             for(let d of data)
@@ -230,9 +225,7 @@ function sachGiaoKhoaTapVo(event){
             addLocalStorage()
     })
 }
-
-    //hàm khi bấm vào mục đồ dùng học tập//
-function sachGiaoKhoaDoDung(event){
+function sachGiaoKhoaDoDung(){
     productContainerSGK.innerHTML = '';
         fetch("js/storage.json").then(res=>res.json()).then(data=>{
             for(let d of data)
@@ -262,6 +255,8 @@ function sachGiaoKhoaDoDung(event){
             addLocalStorage()
     })
 }
+
+    //hàm load sẵn phần sách trong nước
 let productContainerNuocNgoai=document.querySelector(".products-container-nuocngoai")
 fetch("js/storage.json").then(res=>res.json()).then(data=>{
     for(let d of data)
@@ -342,8 +337,6 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
     }  
     addLocalStorage()   
 })
-
-
     //hàm load sẵn phần sách sách trong nước sau khi trang chủ tải xong//
 let productContainerTrongNuoc=document.querySelector(".products-container-trongnuoc")
 fetch("js/storage.json").then(res=>res.json()).then(data=>{
@@ -373,8 +366,6 @@ fetch("js/storage.json").then(res=>res.json()).then(data=>{
     }  
     addLocalStorage()   
 })
-
-    //hàm bấm vào mục văn học// 
 function SachTrongNuocVanHoc(){
     productContainerTrongNuoc.innerHTML = '';
     fetch("js/storage.json").then(res=>res.json()).then(data=>{
@@ -405,7 +396,6 @@ function SachTrongNuocVanHoc(){
         addLocalStorage()   
     })
 }
-
 function SachTrongNuocKinhTe(){
     productContainerTrongNuoc.innerHTML = '';
     fetch("js/storage.json").then(res=>res.json()).then(data=>{
@@ -436,8 +426,6 @@ function SachTrongNuocKinhTe(){
         addLocalStorage()   
     })
 }
-
-        //hàm bấm vào mục kỹ năng//
 function SachTrongNuocKyNang(){
     productContainerTrongNuoc.innerHTML = '';
     fetch("js/storage.json").then(res=>res.json()).then(data=>{
@@ -574,7 +562,7 @@ function sachGiaoKhoaCap1(){
 }
 
 
-    //mục sách giáo khoa - giáo trình (cấp1)//
+    //mục sách giáo khoa - giáo trình (cấp2)//
 function sachGiaoKhoaCap2(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -607,6 +595,7 @@ function sachGiaoKhoaCap2(){
             addLocalStorageCate()
     })
 }
+    //mục sách giáo khoa - giáo trình (cấp 3)//
 function sachGiaoKhoaCap3(){
     let productContainer=document.querySelector(".product-content")
     productContainer.innerHTML = '';
@@ -1312,6 +1301,9 @@ function sachTapChiVanPhongPham(){
             addLocalStorageCate()
     })
 }
+
+
+//load số lượng trên logo giỏ hàng
 function loadSoLuong()
 {
     cart=JSON.parse(localStorage.getItem("cart"))
@@ -1326,5 +1318,12 @@ function loadCart(){
     if (cart!=null)
     {
         document.getElementById("soluongcart").innerHTML=cart.length
+    }
+}
+function loadCart1(){
+    cart=JSON.parse(localStorage.getItem("cart"))
+    if (cart!=null)
+    {
+        document.getElementById("soluongcart1").innerHTML=cart.length
     }
 }

@@ -97,16 +97,7 @@ let runslider=function(){
 }
 runslider()
 // jQuery
-$(document).ready(function(){
-    $(".modal-overlay").click(function(){
-        $(".main-modal").hide();
-    });
-    
-    $(".close-modal").click(function(){
-        $(".main-modal").hide();
-    });
-    
-})
+
 
 // window.onload=function(){
 //     let category=document.querySelectorAll(".category>li")

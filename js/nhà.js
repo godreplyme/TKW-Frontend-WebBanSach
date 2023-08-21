@@ -115,9 +115,9 @@ $(document).ready(function(){
 //             let d = document.getElementsByClassName("sub-category")
 //         }
 // }   
-var categoryItems = document.querySelectorAll('.category > li');
 
-// Duyệt qua từng li con và thêm sự kiện hover
+// Duyệt qua từng li con và thêm sự kiện hover menu
+var categoryItems = document.querySelectorAll('.category > li');
 categoryItems.forEach(item => {
   var subCategory = item.querySelector('.sub-category');
 
@@ -132,6 +132,16 @@ categoryItems.forEach(item => {
 
   });
 });
+
+
+//Duyệt qua từng li con và thêm sự kiện click menu(mobile)
+var mobileCateItem=document.querySelectorAll('.mobile-subcate > li')
+mobileCateItem.forEach(item=>{
+  var mobileCate=item.querySelector('.mobile-category-item')
+  item.addEventListener('click',function(){
+    mobileCate.style.display="block";
+  })
+})
 //scrollbutton
 const scrollToTopButton = document.getElementById("scrollToTopButton");
 
@@ -155,8 +165,10 @@ function goToTop(){
 var mobilecate=document.querySelector(".mobile-category")
 function mobileCateOn(){
     mobilecate.style.left=0;
+    document.querySelector(".big-body").style.display="none"
 }
 function mobileCateOff(){
      mobilecate.style.left=-100+"%";
+     document.querySelector(".big-body").style.display="block"
 
 }

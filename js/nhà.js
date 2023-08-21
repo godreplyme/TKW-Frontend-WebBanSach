@@ -142,26 +142,16 @@ window.addEventListener("scroll", function(){
     scrollToTopButton.style.display = "none";
   }
 });
-document.addEventListener("DOMContentLoaded", () => {
-    setTimeout(() => {
-      scrollToTopButton.style.opacity = 1;
-      scrollToTopButton.style.transform = "scale(1)";
-    }, 500);
-  });
-scrollToTopButton.addEventListener("click", () => {
-  const scrollDuration = 1000;
-  const scrollStep = -window.scrollY / (scrollDuration / 15);
-
-  const scrollInterval = setInterval(() => {
-    if (window.scrollY !== 0) {
-      window.scrollBy(0, scrollStep);
-    } else {
-      clearInterval(scrollInterval);
+function goToTop(){
+    var topTimer=setInterval(function(){
+      document.documentElement.scrollTop-=20
+      if(document.documentElement.scrollTop<=0){
+        clearInterval(topTimer);
+      }
+      },1)
     }
-  }, 15);
-});
 
-
+// bật tắt mobile danh mục 
 var mobilecate=document.querySelector(".mobile-category")
 function mobileCateOn(){
     mobilecate.style.left=0;

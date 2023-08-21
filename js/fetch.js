@@ -295,6 +295,7 @@ let productContainer=document.querySelector(".product-content")
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 
     //mục sách giáo khoa - giáo trình//
@@ -462,6 +463,7 @@ function sachGiaoKhoaDaiHoc(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachBanChay(){
@@ -493,6 +495,7 @@ function sachBanChay(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachMoiPhatHanh(){
@@ -524,6 +527,7 @@ function sachMoiPhatHanh(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachSapPhatHanh(){
@@ -555,6 +559,7 @@ function sachSapPhatHanh(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachVanHocTrongNuoc(){
@@ -586,6 +591,7 @@ function sachVanHocTrongNuoc(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachPheBinhVanHoc(){
@@ -617,6 +623,7 @@ function sachPheBinhVanHoc(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachPhongSuKySu(){
@@ -648,6 +655,7 @@ function sachPhongSuKySu(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachThoCa(){
@@ -679,6 +687,7 @@ function sachThoCa(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTieuThuyetLangMan(){
@@ -710,6 +719,7 @@ function sachTieuThuyetLangMan(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenDai(){
@@ -741,6 +751,7 @@ function sachTruyenDai(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenGiaTuongThanBi(){
@@ -772,6 +783,7 @@ function sachTruyenGiaTuongThanBi(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenKiemHiep(){
@@ -803,6 +815,7 @@ function sachTruyenKiemHiep(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenNganTanVan(){
@@ -834,6 +847,7 @@ function sachTruyenNganTanVan(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenThieuNhi(){
@@ -865,6 +879,7 @@ function sachTruyenThieuNhi(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenTrinhThamVuAn(){
@@ -896,6 +911,7 @@ function sachTruyenTrinhThamVuAn(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTuTruyenHoiKy(){
@@ -927,6 +943,7 @@ function sachTuTruyenHoiKy(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachVanHocNuocNgoai(){
@@ -958,6 +975,7 @@ function sachVanHocNuocNgoai(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTinHocNgoaiNgu(){
@@ -989,6 +1007,7 @@ function sachTinHocNgoaiNgu(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachChuyenNganh(){
@@ -1020,6 +1039,7 @@ function sachChuyenNganh(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTruyenTranhManga(){
@@ -1051,6 +1071,7 @@ function sachTruyenTranhManga(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function sachTapChiVanPhongPham(){
@@ -1082,6 +1103,7 @@ function sachTapChiVanPhongPham(){
                     </div>
                     `)}
             }
+            addLocalStorageCate()
     })
 }
 function loadSoLuong()
